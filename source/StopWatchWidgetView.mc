@@ -9,6 +9,9 @@ using Toybox.System;
 
 var timer1;
 var startTime;
+var running = false;
+
+
 
 var STOPWATCH_IA_START = "STOPWATCH_IA_START";
 
@@ -24,7 +27,7 @@ class StopWatchWidgetView extends Ui.View {
 
     // Load your resources here
     function onLayout(dc) {
-        setLayout(Rez.Layouts.MainLayout(dc));
+       // setLayout(Rez.Layouts.MainLayout(dc));
         
 		var app = Application.getApp();
         var startTimeProp = app.getProperty(STOPWATCH_IA_START);
@@ -50,9 +53,15 @@ class StopWatchWidgetView extends Ui.View {
     // Update the view
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
-        //View.onUpdate(dc);
+        if(childViewCreated == false){
+        	View.onUpdate(dc);
+        }
         
         var string;
+        
+        if(running == false){
+        	return;
+        }
 
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
         dc.clear();
@@ -76,8 +85,11 @@ class StopWatchWidgetView extends Ui.View {
 		    ]
 		);
 		
-		string = "Timer:"+dateString;
+		string = "Timer: "+dateString;
         dc.drawText( string.length(), (dc.getHeight() / 2) - 30, Gfx.FONT_MEDIUM, string, Gfx.TEXT_JUSTIFY_LEFT);
+        
+        
+        
     }
 
     // Called when this View is removed from the screen. Save the
