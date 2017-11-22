@@ -8,12 +8,15 @@ using Toybox.Math;
 using Toybox.System;
 
 var timer1;
-var startTime;
+var startTime = 0;
+var pausedTime = 0;
+var delta = 0;
 var running = false;
 
 
 
 var STOPWATCH_IA_START = "STOPWATCH_IA_START";
+var STOPWATCH_IA_RUNNING = "STOPWATCH_IA_RUNNING";
 
 class StopWatchWidgetView extends Ui.View {
 
@@ -30,15 +33,12 @@ class StopWatchWidgetView extends Ui.View {
        // setLayout(Rez.Layouts.MainLayout(dc));
         
 		var app = Application.getApp();
-        var startTimeProp = app.getProperty(STOPWATCH_IA_START);
-              //startTimeProp = null; 
-        if(startTimeProp == null){	       
-	        startTime = System.getTimer();//new Time.Moment(Time.now().value()).value(); 
-	        app.setProperty(STOPWATCH_IA_START, startTime);
-		    app.saveProperties();
-	    }else{
-		     startTime = startTimeProp;
-		}
+	    var startTimeProp = app.getProperty(STOPWATCH_IA_START);
+	    running = app.getProperty(STOPWATCH_IA_RUNNING);
+	     
+	    if(startTimeProp != null && startTimeProp == 0){
+	    	startTime = startTimeProp;
+	    }
 	    
 	    timer1 = new Timer.Timer();
         timer1.start(method(:secondPassedEvent), 100, true);
@@ -49,7 +49,25 @@ class StopWatchWidgetView extends Ui.View {
     // loading resources into memory.
     function onShow() {
     }
-
+    
+    function setStartTime(){
+    	
+	    	var app = Application.getApp();
+	        startTime = System.getTimer();//new Time.Moment(Time.now().value()).value(); 
+		    app.setProperty(STOPWATCH_IA_START, startTime);
+			app.saveProperties();		    
+		
+    }
+    
+    function resetStartTime(){
+    	startTime = 0;
+    	var app = Application.getApp();
+    	app.setProperty(STOPWATCH_IA_START, startTime);
+    	app.setProperty(STOPWATCH_IA_RUNNING, running);
+    	app.saveProperties();
+    }
+    
+    
     // Update the view
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
@@ -59,16 +77,24 @@ class StopWatchWidgetView extends Ui.View {
         
         var string;
         
-        if(running == false){
-        	return;
-        }
-
+      
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
         dc.clear();
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
         
 		var currentTime = System.getTimer();//new Time.Moment(Time.now().value()).value();
-		var resp = currentTime - startTime;
+		
+		var resp = 0;
+		
+		if(running == false){
+        	if(pausedTime != 0){
+        		resp = pausedTime - startTime - delta;
+        	}else{
+        		resp = 0;
+        	}
+        }else{
+        	resp = currentTime - startTime - delta;
+        }
 
 		var hours = Math.floor(resp/3600000l);
 		var minutes = Math.floor((resp - hours*3600000l)/60000l);

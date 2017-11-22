@@ -47,12 +47,23 @@ class StopWatchWidgetApp extends App.AppBase {
     	    	
         if(key == Ui.KEY_ESC){   
         	System.println("BACK "+counterInter);
-        	Ui.popView(Ui.SLIDE_IMMEDIATE);
         	
-        	if(childViewCreated == true){
+        	System.println("BACK "+startTime);
+        	if(startTime == 0){
+        		
         		Ui.popView(Ui.SLIDE_IMMEDIATE);
-        	}
         	
+	        		if(childViewCreated == true){
+		        		Ui.popView(Ui.SLIDE_IMMEDIATE);
+	    	    	}
+	    	 }else if(running == false){        		
+        			StopWatchWidgetView.resetStartTime();
+        			pausedTime = 0;
+        			delta = 0;
+        		
+        	}else{
+        		//TODO:LAP RECORD
+    	    }        	
        	    	
         }else if(key == Ui.KEY_DOWN){
         	System.println("DOWN "+counterInter); 
@@ -64,8 +75,15 @@ class StopWatchWidgetApp extends App.AppBase {
         	
         	if(running == true){
         		running = false;
+        		pausedTime = System.getTimer();
         	}else{
-        		running = true;        		
+        			if(pausedTime > 0){
+        			delta = System.getTimer() - pausedTime + delta;
+        		}else{
+        			StopWatchWidgetView.setStartTime();
+        		}  
+        		running = true;
+        		System.println(delta);    		
         	}
         	
         	if(childViewCreated == false){
