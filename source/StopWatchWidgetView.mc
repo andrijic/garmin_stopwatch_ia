@@ -31,6 +31,12 @@ class StopWatchWidgetView extends Ui.View {
        // setLayout(Rez.Layouts.MainLayout(dc));
         
 		restoreProperties();
+		
+		if(childViewCreated == false){
+		      System.println("new view 0"); 
+		      childViewCreated = true;   
+		      Ui.pushView(new StopWatchWidgetView(), new MyInputDelegate(), Ui.SLIDE_IMMEDIATE);
+		}	
 	    
 	    if(timer1 == null){
 	    	System.println("start timer");
