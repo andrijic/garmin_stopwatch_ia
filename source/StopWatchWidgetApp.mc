@@ -2,7 +2,6 @@ using Toybox.Application as App;
 using Toybox.WatchUi as Ui;
 
 
-var childViewCreated = false;
 var STOPWATCH_IA_START = "STOPWATCH_IA_START";
 var STOPWATCH_IA_PAUSEDTIME = "STOPWATCH_IA_PAUSEDTIME";
 var STOPWATCH_IA_delta = "STOPWATCH_IA_delta";
@@ -36,65 +35,62 @@ class StopWatchWidgetApp extends App.AppBase {
  
  	var counterInter;
  	
-	  function initialize() {
-	        MenuInputDelegate.initialize();
-	       	       
-	    }
+	function initialize() {
+		MenuInputDelegate.initialize();	       	       
+	}
     
     
     function onKey(event){    	
     	var key = event.getKey();
-    	
-    	//System.println("key: "+key);
-    	
-    	
     	    	
         if(key == Ui.KEY_ESC){   
-        	System.println("BACK "+counterInter);
-        	
-        	
+        	System.println("BACK1 "+startTime+", "+running+", "+childViewCreated);
+        	        	
         	if(startTime == 0){
+        		System.println("BACK2");
         		
-        		//Ui.popView(Ui.SLIDE_IMMEDIATE);
-        	
-	        		/*if(childViewCreated == true){
-						Ui.popView(Ui.SLIDE_IMMEDIATE);
-						childViewCreated = false;						
-				   	}*/
-	    	    	
-	    	    	//System.exit();
-	    	    	return false;
-	    	 }else if(running == false){        		
-        			StopWatchWidgetView.resetStartTime();
-        			return true;
+        		return false;
+	    	 }else if(running == false){
+	    	 	System.println("BACK3");        		
+        		StopWatchWidgetView.resetStartTime();
+        		
+        		if(childViewCreated == true){
+        			System.println("close view");
+					Ui.popView(Ui.SLIDE_IMMEDIATE);
+					childViewCreated = false;						
+				}   
+        		return true;
         	}else{
-        		//TODO:LAP RECORD
-    	    }        
-    	    
-    	    return false;	
+        		System.println("BACK4");
+        		return true;
+    	    }        	
        	    	
         }/*else if(key == Ui.KEY_DOWN){
         	System.println("DOWN "+counterInter); 
         	return false;
         }else if(key == Ui.KEY_UP){
         	System.println("UP "+counterInter);        	
-        }else*/ if(key == Ui.KEY_ENTER){
+        }else*/ 
+        if(key == Ui.KEY_ENTER){
         	System.println("ENTER "+counterInter);  
         	
         	if(running == true){
         		running = false;
         		pausedTime = System.getTimer();
+        		
+        				
+        		return false;
         	}else{
+        		running = true;
         		if(pausedTime > 0){
         			delta = System.getTimer() - pausedTime + delta;
         		}else{
         			StopWatchWidgetView.setStartTime();
         		}  
-        		running = true;
-        		
-        		if(childViewCreated == false && startTime == 0){
+        		        		
+        		if(childViewCreated == false){
 		        	System.println("new view"); 
-		        	childViewCreated = true;       		
+		        	childViewCreated = true;   
 		        	Ui.pushView(new StopWatchWidgetView(), new MyInputDelegate(), Ui.SLIDE_IMMEDIATE);
 		        }		
         	}

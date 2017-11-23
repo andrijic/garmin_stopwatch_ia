@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="21" pc="268435456" symbol="secondPassedEvent"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="22" pc="268435460" symbol="secondPassedEvent"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="25" pc="268435477" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="26" pc="268435481" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="30" pc="268435500" symbol="onLayout"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="33" pc="268435504" symbol="onLayout"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="35" pc="268435516" symbol="onLayout"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="36" pc="268435529" symbol="onLayout"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="37" pc="268435550" symbol="onLayout"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="38" pc="268435584" symbol="onLayout"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="46" pc="268435629" symbol="onShow"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="49" pc="268435634" symbol="setStartTime"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="50" pc="268435638" symbol="setStartTime"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="51" pc="268435661" symbol="setStartTime"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="54" pc="268435680" symbol="resetStartTime"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="55" pc="268435684" symbol="resetStartTime"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="56" pc="268435697" symbol="resetStartTime"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="57" pc="268435707" symbol="resetStartTime"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="58" pc="268435720" symbol="resetStartTime"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="60" pc="268435733" symbol="resetStartTime"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="65" pc="268435752" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="67" pc="268435756" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="69" pc="268435776" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="72" pc="268435776" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="73" pc="268435812" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="74" pc="268435824" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="76" pc="268435860" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="78" pc="268435877" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="80" pc="268435884" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="81" pc="268435898" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="82" pc="268435915" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="84" pc="268435946" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="87" pc="268435956" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="90" pc="268435978" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="91" pc="268436007" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="92" pc="268436049" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="93" pc="268436104" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="95" pc="268436168" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="105" pc="268436294" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="106" pc="268436304" symbol="onUpdate"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="115" pc="268436377" symbol="onHide"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="116" pc="268436381" symbol="onHide"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="119" pc="268436400" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="120" pc="268436404" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="121" pc="268436421" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="122" pc="268436448" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="123" pc="268436475" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="124" pc="268436502" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="126" pc="268436529" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="127" pc="268436542" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="129" pc="268436558" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="130" pc="268436571" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="132" pc="268436587" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="133" pc="268436600" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="135" pc="268436616" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="136" pc="268436629" symbol="restoreProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="140" pc="268436643" symbol="saveMyProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="141" pc="268436647" symbol="saveMyProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="143" pc="268436664" symbol="saveMyProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="144" pc="268436692" symbol="saveMyProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="145" pc="268436720" symbol="saveMyProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="146" pc="268436748" symbol="saveMyProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetView.mc" lineNum="148" pc="268436776" symbol="saveMyProperties"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="13" pc="268436789" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="14" pc="268436793" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="18" pc="268436812" symbol="onStart"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="22" pc="268436817" symbol="onStop"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="26" pc="268436822" symbol="getInitialView"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="28" pc="268436826" symbol="getInitialView"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="38" pc="268436894" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="39" pc="268436898" symbol="initialize"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="43" pc="268436917" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="44" pc="268436921" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="46" pc="268436934" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="47" pc="268436952" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="49" pc="268437014" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="50" pc="268437031" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="52" pc="268437054" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="54" pc="268437074" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="55" pc="268437097" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="57" pc="268437115" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="58" pc="268437129" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="59" pc="268437152" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="60" pc="268437180" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="62" pc="268437193" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="64" pc="268437199" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="65" pc="268437222" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="74" pc="268437228" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="75" pc="268437246" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="77" pc="268437278" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="78" pc="268437292" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="79" pc="268437302" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="82" pc="268437327" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="84" pc="268437333" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="85" pc="268437343" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="86" pc="268437360" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="88" pc="268437406" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="91" pc="268437424" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="92" pc="268437438" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="93" pc="268437461" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="94" pc="268437471" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="98" pc="268437546" symbol="onKey"/>
+<entry filename="D:\\AndroidWorkspace 2\\StopWatchWidget\\source\\StopWatchWidgetApp.mc" lineNum="101" pc="268437552" symbol="onKey"/>
+<entry filename="Rez" lineNum="19" pc="268437556" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="23" pc="268437568" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="24" pc="268437699" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="25" pc="268437751" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="28" pc="268437803" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="22" method="true" symbol="resetStartTime"/>
+<entry id="8389097" method="true" symbol="onKey"/>
+<entry field="true" id="11" symbol="running"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="13" object="true" symbol="StopWatchWidgetView"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="8388731" symbol="startTime"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="21" method="true" symbol="setStartTime"/>
+<entry field="true" id="12" symbol="childViewCreated"/>
+<entry id="29" method="true" symbol="MainLayout"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry field="true" id="17" symbol="STOPWATCH_IA_RUNNING"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="30" symbol="AppName"/>
+<entry field="true" id="15" symbol="STOPWATCH_IA_PAUSEDTIME"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="28" symbol="LauncherIcon"/>
+<entry field="true" id="31" symbol="counterInter"/>
+<entry id="8388646" module="true" object="true" symbol="Timer"/>
+<entry id="24" method="true" symbol="saveMyProperties"/>
+<entry field="true" id="8388696" symbol="timer1"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry field="true" id="9" symbol="pausedTime"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry field="true" id="16" symbol="STOPWATCH_IA_delta"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="14" symbol="STOPWATCH_IA_START"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="20" method="true" symbol="secondPassedEvent"/>
+<entry field="true" id="27" symbol="id_monkey"/>
+<entry id="26" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="19" object="true" symbol="MyInputDelegate"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="25" module="true" symbol="Menus"/>
+<entry field="true" id="10" symbol="delta"/>
+<entry id="18" object="true" symbol="StopWatchWidgetApp"/>
+<entry id="23" method="true" symbol="restoreProperties"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435629" name="dc" stackId="1" startPc="268435500"/>
+<entry endPc="268436376" name="hundreds" stackId="8" startPc="268435756"/>
+<entry endPc="268436376" name="hours" stackId="5" startPc="268435756"/>
+<entry endPc="268436376" name="string" stackId="2" startPc="268435756"/>
+<entry endPc="268436376" name="minutes" stackId="6" startPc="268435756"/>
+<entry endPc="268436376" name="dateString" stackId="9" startPc="268435756"/>
+<entry endPc="268436376" name="currentTime" stackId="3" startPc="268435756"/>
+<entry endPc="268436376" name="seconds" stackId="7" startPc="268435756"/>
+<entry endPc="268436376" name="resp" stackId="4" startPc="268435756"/>
+<entry endPc="268436377" name="dc" stackId="1" startPc="268435752"/>
+<entry endPc="268436642" name="app" stackId="1" startPc="268436404"/>
+<entry endPc="268436788" name="app" stackId="1" startPc="268436647"/>
+<entry endPc="268436817" name="state" stackId="1" startPc="268436812"/>
+<entry endPc="268436822" name="state" stackId="1" startPc="268436817"/>
+<entry endPc="268437555" name="key" stackId="2" startPc="268436921"/>
+<entry endPc="268437556" name="event" stackId="1" startPc="268436917"/>
+<entry endPc="268437820" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268437568"/>
+<entry endPc="268437821" name="dc" stackId="1" startPc="268437556"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="secondPassedEvent" parent="StopWatchWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="StopWatchWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="StopWatchWidgetView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="StopWatchWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setStartTime" parent="StopWatchWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="resetStartTime" parent="StopWatchWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="StopWatchWidgetView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="StopWatchWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="restoreProperties" parent="StopWatchWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="saveMyProperties" parent="StopWatchWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="StopWatchWidgetApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="StopWatchWidgetApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="StopWatchWidgetApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="StopWatchWidgetApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MyInputDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onKey" parent="MyInputDelegate">
+<param id="event"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="254" parentId="globals" symbolId="StopWatchWidgetView" type="class"/>
+<dataEntry offset="373" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="452" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="499" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="530" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="561" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="592" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="631" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="670" parentId="globals" symbolId="MyInputDelegate" type="class"/>
+<dataEntry offset="733" parentId="globals" symbolId="StopWatchWidgetApp" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>

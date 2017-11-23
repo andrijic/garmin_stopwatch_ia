@@ -7,13 +7,14 @@ using Toybox.Application;
 using Toybox.Math;
 using Toybox.System;
 
-var timer1;
+
 var startTime = 0;
 var pausedTime = 0;
 var delta = 0;
 var running = false;
 
-
+var timer1 = null;
+var childViewCreated = false;
 
 class StopWatchWidgetView extends Ui.View {
 
@@ -29,27 +30,13 @@ class StopWatchWidgetView extends Ui.View {
     function onLayout(dc) {
        // setLayout(Rez.Layouts.MainLayout(dc));
         
-		var app = Application.getApp();
-	    startTime = app.getProperty(STOPWATCH_IA_START);
-	    pausedTime = app.getProperty(STOPWATCH_IA_PAUSEDTIME);
-	    delta = app.getProperty(STOPWATCH_IA_delta);
-	    running = app.getProperty(STOPWATCH_IA_RUNNING);
-	   
-	    if(startTime == null){
-	    	startTime =0;
-	    }
-	    if(pausedTime == null){
-	    	pausedTime = 0;
-	    }
-	    if(delta == null){
-	    	delta = 0;
-	    }
-	    if(running == null){
-	    	running = false;
-	    }
-	    timer1 = new Timer.Timer();
-        timer1.start(method(:secondPassedEvent), 100, true);
-        
+		restoreProperties();
+	    
+	    if(timer1 == null){
+	    	System.println("start timer");
+	    	timer1 = new Timer.Timer();
+        	timer1.start(method(:secondPassedEvent), 100, true);
+        }
           
     }
 
@@ -60,28 +47,17 @@ class StopWatchWidgetView extends Ui.View {
     }
     
     function setStartTime(){
-    	
-	    	var app = Application.getApp();
-	        startTime = System.getTimer();//new Time.Moment(Time.now().value()).value(); 
-		    app.setProperty(STOPWATCH_IA_START, startTime);
-			app.saveProperties();		    
-		
+    	    startTime = System.getTimer();//new Time.Moment(Time.now().value()).value(); 
+		    StopWatchWidgetView.saveMyProperties();	
     }
     
     function resetStartTime(){
-    	startTime = 0;
-    	var app = Application.getApp();
     	startTime = 0;
     	running = false;
     	pausedTime = 0;
     	delta = 0;
     	
-    	app.setProperty(STOPWATCH_IA_START, startTime);    	
-    	app.setProperty(STOPWATCH_IA_PAUSEDTIME, pausedTime);
-    	app.setProperty(STOPWATCH_IA_delta, delta);
-    	app.setProperty(STOPWATCH_IA_RUNNING, running);
-    	
-    	app.saveProperties();
+    	StopWatchWidgetView.saveMyProperties();
     }
     
     
@@ -137,6 +113,31 @@ class StopWatchWidgetView extends Ui.View {
     // state of this View here. This includes freeing resources from
     // memory.
     function onHide() {
+    	StopWatchWidgetView.saveMyProperties();
+    }
+    
+    function restoreProperties(){
+    	var app = Application.getApp();
+	    startTime = app.getProperty(STOPWATCH_IA_START);
+	    pausedTime = app.getProperty(STOPWATCH_IA_PAUSEDTIME);
+	    delta = app.getProperty(STOPWATCH_IA_delta);
+	    running = app.getProperty(STOPWATCH_IA_RUNNING);
+	    	   
+	    if(startTime == null){
+	    	startTime =0;
+	    }
+	    if(pausedTime == null){
+	    	pausedTime = 0;
+	    }
+	    if(delta == null){
+	    	delta = 0;
+	    }
+	    if(running == null){
+	    	running = false;
+	    }	    
+    }
+    
+    function saveMyProperties(){
     	var app = Application.getApp();
     	
     	app.setProperty(STOPWATCH_IA_START, startTime);    	
@@ -145,9 +146,6 @@ class StopWatchWidgetView extends Ui.View {
     	app.setProperty(STOPWATCH_IA_RUNNING, running);
     	
     	app.saveProperties();
-    	
-    	timer1 = null;
-    	
     }
 
 }
