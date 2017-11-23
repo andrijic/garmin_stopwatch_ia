@@ -50,11 +50,7 @@ class StopWatchWidgetView extends Ui.View {
 	    timer1 = new Timer.Timer();
         timer1.start(method(:secondPassedEvent), 100, true);
         
-        if(childViewCreated == false){
-        	System.println("new view"); 
-        	childViewCreated = true;       		
-        	Ui.pushView(new StopWatchWidgetView(), new MyInputDelegate(), Ui.SLIDE_IMMEDIATE);
-        }     
+          
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -92,10 +88,8 @@ class StopWatchWidgetView extends Ui.View {
     // Update the view
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
-        if(childViewCreated == false){
-        	View.onUpdate(dc);
-        }
-        
+        View.onUpdate(dc);
+                
         var string;
         
       
@@ -151,6 +145,9 @@ class StopWatchWidgetView extends Ui.View {
     	app.setProperty(STOPWATCH_IA_RUNNING, running);
     	
     	app.saveProperties();
+    	
+    	timer1 = null;
+    	
     }
 
 }

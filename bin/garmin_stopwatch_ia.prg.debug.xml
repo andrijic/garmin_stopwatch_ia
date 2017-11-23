@@ -21,116 +21,92 @@
 <entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="48" pc="268435729" symbol="onLayout"/>
 <entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="50" pc="268435742" symbol="onLayout"/>
 <entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="51" pc="268435776" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="53" pc="268435817" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="54" pc="268435831" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="55" pc="268435852" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="56" pc="268435862" symbol="onLayout"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="63" pc="268435938" symbol="onShow"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="66" pc="268435943" symbol="setStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="68" pc="268435947" symbol="setStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="69" pc="268435964" symbol="setStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="70" pc="268435987" symbol="setStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="71" pc="268436015" symbol="setStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="75" pc="268436028" symbol="resetStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="76" pc="268436032" symbol="resetStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="77" pc="268436045" symbol="resetStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="78" pc="268436062" symbol="resetStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="79" pc="268436075" symbol="resetStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="80" pc="268436085" symbol="resetStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="81" pc="268436098" symbol="resetStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="83" pc="268436111" symbol="resetStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="84" pc="268436139" symbol="resetStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="85" pc="268436167" symbol="resetStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="86" pc="268436195" symbol="resetStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="88" pc="268436223" symbol="resetStartTime"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="93" pc="268436236" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="95" pc="268436240" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="96" pc="268436254" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="99" pc="268436277" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="102" pc="268436277" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="103" pc="268436313" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="104" pc="268436325" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="106" pc="268436361" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="108" pc="268436378" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="110" pc="268436385" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="111" pc="268436399" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="112" pc="268436416" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="114" pc="268436447" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="117" pc="268436457" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="120" pc="268436479" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="121" pc="268436508" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="122" pc="268436550" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="123" pc="268436605" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="125" pc="268436669" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="135" pc="268436795" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="136" pc="268436805" symbol="onUpdate"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="145" pc="268436878" symbol="onHide"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="146" pc="268436882" symbol="onHide"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="148" pc="268436899" symbol="onHide"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="149" pc="268436927" symbol="onHide"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="150" pc="268436955" symbol="onHide"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="151" pc="268436983" symbol="onHide"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="153" pc="268437011" symbol="onHide"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="14" pc="268437024" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="15" pc="268437028" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="19" pc="268437047" symbol="onStart"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="23" pc="268437052" symbol="onStop"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="27" pc="268437057" symbol="getInitialView"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="29" pc="268437061" symbol="getInitialView"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="39" pc="268437129" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="40" pc="268437133" symbol="initialize"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="44" pc="268437152" symbol="onHold"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="45" pc="268437156" symbol="onHold"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="48" pc="268437160" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="49" pc="268437164" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="53" pc="268437177" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="54" pc="268437195" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="56" pc="268437227" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="57" pc="268437259" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="59" pc="268437276" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="61" pc="268437304" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="62" pc="268437318" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="65" pc="268437366" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="72" pc="268437408" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="73" pc="268437440" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="75" pc="268437464" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="77" pc="268437517" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="79" pc="268437549" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="80" pc="268437563" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="81" pc="268437573" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="83" pc="268437601" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="84" pc="268437618" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="86" pc="268437664" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="88" pc="268437682" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="89" pc="268437692" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="95" pc="268437721" symbol="onKey"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="98" pc="268437725" symbol="onKeyPressed"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="99" pc="268437729" symbol="onKeyPressed"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="100" pc="268437764" symbol="onKeyPressed"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="103" pc="268437768" symbol="onKeyReleased"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="104" pc="268437772" symbol="onKeyReleased"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="105" pc="268437795" symbol="onKeyReleased"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="108" pc="268437799" symbol="onRelease"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="109" pc="268437803" symbol="onRelease"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="110" pc="268437826" symbol="onRelease"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="113" pc="268437830" symbol="onSelectable"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="114" pc="268437834" symbol="onSelectable"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="115" pc="268437857" symbol="onSelectable"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="118" pc="268437861" symbol="onSwipe"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="119" pc="268437865" symbol="onSwipe"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="120" pc="268437888" symbol="onSwipe"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="123" pc="268437892" symbol="onTap"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="124" pc="268437896" symbol="onTap"/>
-<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="125" pc="268437919" symbol="onTap"/>
-<entry filename="Rez" lineNum="19" pc="268437923" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="23" pc="268437935" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="24" pc="268438066" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="25" pc="268438118" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="28" pc="268438170" symbol="MainLayout"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="59" pc="268435818" symbol="onShow"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="62" pc="268435823" symbol="setStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="64" pc="268435827" symbol="setStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="65" pc="268435844" symbol="setStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="66" pc="268435867" symbol="setStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="67" pc="268435895" symbol="setStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="71" pc="268435908" symbol="resetStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="72" pc="268435912" symbol="resetStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="73" pc="268435925" symbol="resetStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="74" pc="268435942" symbol="resetStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="75" pc="268435955" symbol="resetStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="76" pc="268435965" symbol="resetStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="77" pc="268435978" symbol="resetStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="79" pc="268435991" symbol="resetStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="80" pc="268436019" symbol="resetStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="81" pc="268436047" symbol="resetStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="82" pc="268436075" symbol="resetStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="84" pc="268436103" symbol="resetStartTime"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="89" pc="268436116" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="91" pc="268436120" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="93" pc="268436140" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="96" pc="268436140" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="97" pc="268436176" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="98" pc="268436188" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="100" pc="268436224" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="102" pc="268436241" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="104" pc="268436248" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="105" pc="268436262" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="106" pc="268436279" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="108" pc="268436310" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="111" pc="268436320" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="114" pc="268436342" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="115" pc="268436371" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="116" pc="268436413" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="117" pc="268436468" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="119" pc="268436532" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="129" pc="268436658" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="130" pc="268436668" symbol="onUpdate"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="139" pc="268436741" symbol="onHide"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="140" pc="268436745" symbol="onHide"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="142" pc="268436762" symbol="onHide"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="143" pc="268436790" symbol="onHide"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="144" pc="268436818" symbol="onHide"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="145" pc="268436846" symbol="onHide"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="147" pc="268436874" symbol="onHide"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetView.mc" lineNum="149" pc="268436886" symbol="onHide"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="14" pc="268436896" symbol="initialize"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="15" pc="268436900" symbol="initialize"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="19" pc="268436919" symbol="onStart"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="23" pc="268436924" symbol="onStop"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="27" pc="268436929" symbol="getInitialView"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="29" pc="268436933" symbol="getInitialView"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="39" pc="268437001" symbol="initialize"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="40" pc="268437005" symbol="initialize"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="45" pc="268437024" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="46" pc="268437028" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="52" pc="268437041" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="53" pc="268437059" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="56" pc="268437091" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="66" pc="268437108" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="68" pc="268437128" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="69" pc="268437146" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="74" pc="268437152" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="81" pc="268437158" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="82" pc="268437176" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="84" pc="268437208" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="85" pc="268437222" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="86" pc="268437232" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="88" pc="268437260" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="89" pc="268437277" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="91" pc="268437323" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="93" pc="268437341" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="95" pc="268437351" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="96" pc="268437385" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="97" pc="268437408" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="98" pc="268437418" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="102" pc="268437493" symbol="onKey"/>
+<entry filename="D:\\Development\\EclipseWorkspace\\garmin_stopwatch_ia\\source\\StopWatchWidgetApp.mc" lineNum="105" pc="268437499" symbol="onKey"/>
+<entry filename="Rez" lineNum="19" pc="268437503" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="23" pc="268437515" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="24" pc="268437646" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="25" pc="268437698" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="28" pc="268437750" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388644" module="true" symbol="System"/>
-<entry id="8389101" method="true" symbol="onSwipe"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="22" method="true" symbol="resetStartTime"/>
 <entry id="8389097" method="true" symbol="onKey"/>
@@ -147,10 +123,8 @@
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
-<entry id="8389098" method="true" symbol="onTap"/>
 <entry field="true" id="17" symbol="STOPWATCH_IA_RUNNING"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry id="8389554" method="true" symbol="onKeyReleased"/>
 <entry field="true" id="28" symbol="AppName"/>
 <entry field="true" id="15" symbol="STOPWATCH_IA_PAUSEDTIME"/>
 <entry id="8388641" module="true" symbol="Math"/>
@@ -158,7 +132,6 @@
 <entry field="true" id="29" symbol="counterInter"/>
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
 <entry field="true" id="8388696" symbol="timer1"/>
-<entry id="8389553" method="true" symbol="onKeyPressed"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
@@ -170,49 +143,39 @@
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry id="20" method="true" symbol="secondPassedEvent"/>
 <entry field="true" id="25" symbol="id_monkey"/>
-<entry id="8389890" method="true" symbol="onSelectable"/>
 <entry id="24" module="true" symbol="Layouts"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="19" object="true" symbol="MyInputDelegate"/>
 <entry id="8389345" symbol="rezId"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry id="8389099" method="true" symbol="onHold"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="23" module="true" symbol="Menus"/>
 <entry field="true" id="10" symbol="delta"/>
 <entry id="18" object="true" symbol="StopWatchWidgetApp"/>
-<entry id="8389100" method="true" symbol="onRelease"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435937" name="app" stackId="2" startPc="268435504"/>
-<entry endPc="268435938" name="dc" stackId="1" startPc="268435500"/>
-<entry endPc="268436027" name="app" stackId="1" startPc="268435947"/>
-<entry endPc="268436235" name="app" stackId="1" startPc="268436032"/>
-<entry endPc="268436877" name="hundreds" stackId="8" startPc="268436240"/>
-<entry endPc="268436877" name="hours" stackId="5" startPc="268436240"/>
-<entry endPc="268436877" name="string" stackId="2" startPc="268436240"/>
-<entry endPc="268436877" name="minutes" stackId="6" startPc="268436240"/>
-<entry endPc="268436877" name="dateString" stackId="9" startPc="268436240"/>
-<entry endPc="268436877" name="currentTime" stackId="3" startPc="268436240"/>
-<entry endPc="268436877" name="seconds" stackId="7" startPc="268436240"/>
-<entry endPc="268436877" name="resp" stackId="4" startPc="268436240"/>
-<entry endPc="268436878" name="dc" stackId="1" startPc="268436236"/>
-<entry endPc="268437023" name="app" stackId="1" startPc="268436882"/>
-<entry endPc="268437052" name="state" stackId="1" startPc="268437047"/>
-<entry endPc="268437057" name="state" stackId="1" startPc="268437052"/>
-<entry endPc="268437160" name="event" stackId="1" startPc="268437152"/>
-<entry endPc="268437724" name="key" stackId="2" startPc="268437164"/>
-<entry endPc="268437725" name="event" stackId="1" startPc="268437160"/>
-<entry endPc="268437768" name="event" stackId="1" startPc="268437725"/>
-<entry endPc="268437799" name="event" stackId="1" startPc="268437768"/>
-<entry endPc="268437830" name="event" stackId="1" startPc="268437799"/>
-<entry endPc="268437861" name="event" stackId="1" startPc="268437830"/>
-<entry endPc="268437892" name="event" stackId="1" startPc="268437861"/>
-<entry endPc="268437923" name="event" stackId="1" startPc="268437892"/>
-<entry endPc="268438187" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268437935"/>
-<entry endPc="268438188" name="dc" stackId="1" startPc="268437923"/>
+<entry endPc="268435817" name="app" stackId="2" startPc="268435504"/>
+<entry endPc="268435818" name="dc" stackId="1" startPc="268435500"/>
+<entry endPc="268435907" name="app" stackId="1" startPc="268435827"/>
+<entry endPc="268436115" name="app" stackId="1" startPc="268435912"/>
+<entry endPc="268436740" name="hundreds" stackId="8" startPc="268436120"/>
+<entry endPc="268436740" name="hours" stackId="5" startPc="268436120"/>
+<entry endPc="268436740" name="string" stackId="2" startPc="268436120"/>
+<entry endPc="268436740" name="minutes" stackId="6" startPc="268436120"/>
+<entry endPc="268436740" name="dateString" stackId="9" startPc="268436120"/>
+<entry endPc="268436740" name="currentTime" stackId="3" startPc="268436120"/>
+<entry endPc="268436740" name="seconds" stackId="7" startPc="268436120"/>
+<entry endPc="268436740" name="resp" stackId="4" startPc="268436120"/>
+<entry endPc="268436741" name="dc" stackId="1" startPc="268436116"/>
+<entry endPc="268436895" name="app" stackId="1" startPc="268436745"/>
+<entry endPc="268436924" name="state" stackId="1" startPc="268436919"/>
+<entry endPc="268436929" name="state" stackId="1" startPc="268436924"/>
+<entry endPc="268437502" name="key" stackId="2" startPc="268437028"/>
+<entry endPc="268437503" name="event" stackId="1" startPc="268437024"/>
+<entry endPc="268437767" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268437515"/>
+<entry endPc="268437768" name="dc" stackId="1" startPc="268437503"/>
 </localVars>
 <annotations/>
 <functions>
@@ -259,35 +222,7 @@
 <functionEntry accessMode="public" name="initialize" parent="MyInputDelegate">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onHold" parent="MyInputDelegate">
-<param id="event"/>
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="onKey" parent="MyInputDelegate">
-<param id="event"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onKeyPressed" parent="MyInputDelegate">
-<param id="event"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onKeyReleased" parent="MyInputDelegate">
-<param id="event"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onRelease" parent="MyInputDelegate">
-<param id="event"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onSelectable" parent="MyInputDelegate">
-<param id="event"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onSwipe" parent="MyInputDelegate">
-<param id="event"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onTap" parent="MyInputDelegate">
 <param id="event"/>
 <documentation/>
 </functionEntry>
@@ -307,6 +242,6 @@
 <dataEntry offset="576" parentId="Rez" symbolId="Layouts" type="module"/>
 <dataEntry offset="615" parentId="Rez" symbolId="Strings" type="module"/>
 <dataEntry offset="654" parentId="globals" symbolId="MyInputDelegate" type="class"/>
-<dataEntry offset="773" parentId="globals" symbolId="StopWatchWidgetApp" type="class"/>
+<dataEntry offset="717" parentId="globals" symbolId="StopWatchWidgetApp" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>

@@ -41,60 +41,71 @@ class StopWatchWidgetApp extends App.AppBase {
 	       	       
 	    }
     
-       function onHold(event){
-    	return true;
-    }
     
     function onKey(event){    	
     	var key = event.getKey();
     	
     	//System.println("key: "+key);
+    	
+    	
     	    	
         if(key == Ui.KEY_ESC){   
         	System.println("BACK "+counterInter);
         	
-        	System.println("BACK "+startTime);
+        	
         	if(startTime == 0){
         		
-        		Ui.popView(Ui.SLIDE_IMMEDIATE);
+        		//Ui.popView(Ui.SLIDE_IMMEDIATE);
         	
-	        		if(childViewCreated == true){
-		        		Ui.popView(Ui.SLIDE_IMMEDIATE);
-	    	    	}
+	        		/*if(childViewCreated == true){
+						Ui.popView(Ui.SLIDE_IMMEDIATE);
+						childViewCreated = false;						
+				   	}*/
+	    	    	
+	    	    	//System.exit();
+	    	    	return false;
 	    	 }else if(running == false){        		
         			StopWatchWidgetView.resetStartTime();
-        		
+        			return true;
         	}else{
         		//TODO:LAP RECORD
-    	    }        	
+    	    }        
+    	    
+    	    return false;	
        	    	
-        }else if(key == Ui.KEY_DOWN){
+        }/*else if(key == Ui.KEY_DOWN){
         	System.println("DOWN "+counterInter); 
         	return false;
         }else if(key == Ui.KEY_UP){
         	System.println("UP "+counterInter);        	
-        }else if(key == Ui.KEY_ENTER){
+        }else*/ if(key == Ui.KEY_ENTER){
         	System.println("ENTER "+counterInter);  
         	
         	if(running == true){
         		running = false;
         		pausedTime = System.getTimer();
         	}else{
-        			if(pausedTime > 0){
+        		if(pausedTime > 0){
         			delta = System.getTimer() - pausedTime + delta;
         		}else{
         			StopWatchWidgetView.setStartTime();
         		}  
         		running = true;
-        		System.println(delta);    		
+        		
+        		if(childViewCreated == false && startTime == 0){
+		        	System.println("new view"); 
+		        	childViewCreated = true;       		
+		        	Ui.pushView(new StopWatchWidgetView(), new MyInputDelegate(), Ui.SLIDE_IMMEDIATE);
+		        }		
         	}
         	
-        	 	
+			return true;        	 	
         }
         
-        return true;
+        return false;
     }
     
+    /*
     function onKeyPressed(event){
     	System.println("Enter = add KB's " + event.getKey());
     	return true;
@@ -123,6 +134,6 @@ class StopWatchWidgetApp extends App.AppBase {
     function onTap(event){
     	System.println("onTap");
     	return true;
-    }
+    }*/
  
 }
