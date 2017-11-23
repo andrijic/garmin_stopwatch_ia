@@ -15,9 +15,6 @@ var running = false;
 
 
 
-var STOPWATCH_IA_START = "STOPWATCH_IA_START";
-var STOPWATCH_IA_RUNNING = "STOPWATCH_IA_RUNNING";
-
 class StopWatchWidgetView extends Ui.View {
 
 	function secondPassedEvent(){
@@ -33,15 +30,31 @@ class StopWatchWidgetView extends Ui.View {
        // setLayout(Rez.Layouts.MainLayout(dc));
         
 		var app = Application.getApp();
-	    var startTimeProp = app.getProperty(STOPWATCH_IA_START);
+	    startTime = app.getProperty(STOPWATCH_IA_START);
+	    pausedTime = app.getProperty(STOPWATCH_IA_PAUSEDTIME);
+	    delta = app.getProperty(STOPWATCH_IA_delta);
 	    running = app.getProperty(STOPWATCH_IA_RUNNING);
-	     
-	    if(startTimeProp != null && startTimeProp == 0){
-	    	startTime = startTimeProp;
+	   
+	    if(startTime == null){
+	    	startTime =0;
 	    }
-	    
+	    if(pausedTime == null){
+	    	pausedTime = 0;
+	    }
+	    if(delta == null){
+	    	delta = 0;
+	    }
+	    if(running == null){
+	    	running = false;
+	    }
 	    timer1 = new Timer.Timer();
         timer1.start(method(:secondPassedEvent), 100, true);
+        
+        if(childViewCreated == false){
+        	System.println("new view"); 
+        	childViewCreated = true;       		
+        	Ui.pushView(new StopWatchWidgetView(), new MyInputDelegate(), Ui.SLIDE_IMMEDIATE);
+        }     
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -62,8 +75,16 @@ class StopWatchWidgetView extends Ui.View {
     function resetStartTime(){
     	startTime = 0;
     	var app = Application.getApp();
-    	app.setProperty(STOPWATCH_IA_START, startTime);
+    	startTime = 0;
+    	running = false;
+    	pausedTime = 0;
+    	delta = 0;
+    	
+    	app.setProperty(STOPWATCH_IA_START, startTime);    	
+    	app.setProperty(STOPWATCH_IA_PAUSEDTIME, pausedTime);
+    	app.setProperty(STOPWATCH_IA_delta, delta);
     	app.setProperty(STOPWATCH_IA_RUNNING, running);
+    	
     	app.saveProperties();
     }
     
@@ -122,6 +143,14 @@ class StopWatchWidgetView extends Ui.View {
     // state of this View here. This includes freeing resources from
     // memory.
     function onHide() {
+    	var app = Application.getApp();
+    	
+    	app.setProperty(STOPWATCH_IA_START, startTime);    	
+    	app.setProperty(STOPWATCH_IA_PAUSEDTIME, pausedTime);
+    	app.setProperty(STOPWATCH_IA_delta, delta);
+    	app.setProperty(STOPWATCH_IA_RUNNING, running);
+    	
+    	app.saveProperties();
     }
 
 }

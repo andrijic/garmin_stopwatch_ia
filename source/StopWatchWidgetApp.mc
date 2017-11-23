@@ -3,6 +3,11 @@ using Toybox.WatchUi as Ui;
 
 
 var childViewCreated = false;
+var STOPWATCH_IA_START = "STOPWATCH_IA_START";
+var STOPWATCH_IA_PAUSEDTIME = "STOPWATCH_IA_PAUSEDTIME";
+var STOPWATCH_IA_delta = "STOPWATCH_IA_delta";
+var STOPWATCH_IA_RUNNING = "STOPWATCH_IA_RUNNING";
+
 
 class StopWatchWidgetApp extends App.AppBase {
 
@@ -58,8 +63,6 @@ class StopWatchWidgetApp extends App.AppBase {
 	    	    	}
 	    	 }else if(running == false){        		
         			StopWatchWidgetView.resetStartTime();
-        			pausedTime = 0;
-        			delta = 0;
         		
         	}else{
         		//TODO:LAP RECORD
@@ -86,11 +89,7 @@ class StopWatchWidgetApp extends App.AppBase {
         		System.println(delta);    		
         	}
         	
-        	if(childViewCreated == false){
-        		System.println("new view"); 
-        		childViewCreated = true;       		
-        		Ui.pushView(new StopWatchWidgetView(), new MyInputDelegate(), Ui.SLIDE_IMMEDIATE);
-        	}      	
+        	 	
         }
         
         return true;
