@@ -6,7 +6,7 @@ using Toybox.Time.Gregorian;
 using Toybox.Application;
 using Toybox.Math;
 using Toybox.System;
-
+using Toybox.Time.Gregorian;
 
 var startTime = 0;
 var pausedTime = 0;
@@ -79,6 +79,26 @@ class StopWatchWidgetView extends Ui.View {
         dc.clear();
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
         
+        //CLOCK PART
+        var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+        var clockString = Lang.format(
+		    "$1$:$2$",
+		    [
+		        today.hour.format("%02d"),
+		        today.min.format("%02d")
+		       // today.sec.format("%02d"),
+		        //today.day_of_week,
+		       // today.day,
+		       // today.month,
+		       // today.year
+		    ]
+		);
+        dc.drawText( dc.getWidth()/2,  7, Gfx.FONT_MEDIUM, clockString, Gfx.TEXT_JUSTIFY_CENTER);
+        
+        //separator
+        dc.drawLine(0, 40, dc.getWidth(), 40);
+        
+        //STOPWATCH PART        
 		var currentTime = System.getTimer();//new Time.Moment(Time.now().value()).value();
 		
 		var resp = 0;
@@ -107,9 +127,9 @@ class StopWatchWidgetView extends Ui.View {
 		        hundreds.format("%02d")
 		    ]
 		);
-		
-		string = "Timer: "+dateString;
-        dc.drawText( string.length(), (dc.getHeight() / 2) - 30, Gfx.FONT_MEDIUM, string, Gfx.TEXT_JUSTIFY_LEFT);
+		dc.setColor(Gfx.COLOR_YELLOW , Gfx.COLOR_TRANSPARENT);
+		string = dateString;
+        dc.drawText( dc.getWidth()/2, (dc.getHeight() / 2) - 20, Gfx.FONT_LARGE, string, Gfx.TEXT_JUSTIFY_CENTER );
         
         
         
