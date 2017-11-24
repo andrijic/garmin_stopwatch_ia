@@ -75,9 +75,9 @@ class StopWatchWidgetView extends Ui.View {
         var string;
         
       
-        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
+        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE  );
         dc.clear();
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+        dc.setColor(Gfx.COLOR_DK_BLUE, Gfx.COLOR_TRANSPARENT);
         
         //CLOCK PART
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
@@ -127,7 +127,7 @@ class StopWatchWidgetView extends Ui.View {
 		        hundreds.format("%02d")
 		    ]
 		);
-		dc.setColor(Gfx.COLOR_YELLOW , Gfx.COLOR_TRANSPARENT);
+		dc.setColor(Gfx.COLOR_DK_RED   , Gfx.COLOR_TRANSPARENT);
 		string = dateString;
         dc.drawText( dc.getWidth()/2, (dc.getHeight() / 2) - 20, Gfx.FONT_LARGE, string, Gfx.TEXT_JUSTIFY_CENTER );
         
