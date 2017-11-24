@@ -29,7 +29,8 @@ class StopWatchWidgetView extends Ui.View {
     // Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.MainLayout(dc));
-        //View.onUpdate(dc);
+        View.onUpdate(dc);
+        
 		restoreProperties();
 		
 		if(childViewCreated == false){
@@ -43,7 +44,8 @@ class StopWatchWidgetView extends Ui.View {
 	    	timer1 = new Timer.Timer();
         	timer1.start(method(:secondPassedEvent), 100, true);
         }
-          
+        
+        onUpdate(dc); 
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -69,9 +71,9 @@ class StopWatchWidgetView extends Ui.View {
     
     // Update the view
     function onUpdate(dc) {
-        // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
-                
+        
+           // Call the parent onUpdate function to redraw the layout
+        //View.onUpdate(dc);     
         var string;
         
       
