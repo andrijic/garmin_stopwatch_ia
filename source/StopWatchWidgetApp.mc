@@ -1,6 +1,6 @@
 using Toybox.Application as App;
 using Toybox.WatchUi as Ui;
-
+using Toybox.Attention;
 
 var STOPWATCH_IA_START = "STOPWATCH_IA_START";
 var STOPWATCH_IA_PAUSEDTIME = "STOPWATCH_IA_PAUSEDTIME";
@@ -59,9 +59,11 @@ class StopWatchWidgetApp extends App.AppBase {
 					Ui.popView(Ui.SLIDE_IMMEDIATE);
 					childViewCreated = false;						
 				}   
+				//vibrate();
         		return true;
         	}else{
         		System.println("BACK4");
+        		//vibrate();
         		return true;
     	    }        	
        	    	
@@ -72,8 +74,9 @@ class StopWatchWidgetApp extends App.AppBase {
         	System.println("UP "+counterInter);        	
         }else*/ 
         if(key == Ui.KEY_ENTER){
-        	System.println("ENTER "+counterInter);  
-        	
+        	System.println("ENTER "+running);  
+        	vibrate();
+        	        	
         	if(running == true){
         		running = false;
         		pausedTime = System.getTimer();
@@ -131,5 +134,13 @@ class StopWatchWidgetApp extends App.AppBase {
     	System.println("onTap");
     	return true;
     }*/
- 
+  function vibrate(){
+  		if (Attention has :vibrate) {
+	    	var vibeData =
+			    [
+			        new Attention.VibeProfile(20, 500) // On for two seconds			        
+			    ];
+			Attention.vibrate(vibeData);
+		}
+	}
 }

@@ -28,8 +28,8 @@ class StopWatchWidgetView extends Ui.View {
 
     // Load your resources here
     function onLayout(dc) {
-       // setLayout(Rez.Layouts.MainLayout(dc));
-        
+        setLayout(Rez.Layouts.MainLayout(dc));
+        //View.onUpdate(dc);
 		restoreProperties();
 		
 		if(childViewCreated == false){
@@ -160,7 +160,19 @@ class StopWatchWidgetView extends Ui.View {
 	    }
 	    if(running == null){
 	    	running = false;
-	    }	    
+	    }	   
+	    	    
+	    var test1 = (pausedTime != 0) && ((pausedTime - startTime - delta) < 0);
+	    var test2 = (pausedTime == 0) && ((System.getTimer() - startTime - delta) < 0);
+	    //in case watch had been restarted reset all settings
+	    if(test1 || test2){
+	    	System.println("!!!!");
+	    	startTime = 0;
+	    	pausedTime = 0;
+	    	delta = 0;
+	    	running = false;
+	    	saveMyProperties();
+	    } 
     }
     
     function saveMyProperties(){
