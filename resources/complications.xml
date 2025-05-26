@@ -1,0 +1,10 @@
+<complications>
+    <complication id="200" access="public"
+                  longLabel="@Strings.myLongLabel"
+                  shortLabel="@Strings.myShortLabel"
+                  icon="@Drawables.svgImage"
+                  glancePreview="true">
+        <faceIt defaultText="@Strings.complicationName" />
+    </complication>
+</complications>
+

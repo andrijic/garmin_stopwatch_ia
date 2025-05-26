@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\DEV\GarminDev\garmin_timerapp_ia\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="1" lineNum="8" parent="globals/ToastsView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="1" lineNum="19" parent="globals/ToastsView" pc="268435471" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="1" lineNum="20" parent="globals/ToastsView" pc="268435480" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\gen\\006-B4532-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435490" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsApp.mc" id="3" lineNum="5" parent="globals/ToastsApp" pc="268435510" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="4" lineNum="55" parent="globals/ToastsView" pc="268435522" symbol="onShow"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="4" lineNum="56" parent="globals/ToastsView" pc="268435524" symbol="onShow"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="4" lineNum="57" parent="globals/ToastsView" pc="268435533" symbol="onShow"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="4" lineNum="58" parent="globals/ToastsView" pc="268435562" symbol="onShow"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="31" parent="globals/ToastsView" pc="268435597" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="33" parent="globals/ToastsView" pc="268435600" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="35" parent="globals/ToastsView" pc="268435618" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="37" parent="globals/ToastsView" pc="268435634" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="38" parent="globals/ToastsView" pc="268435655" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="39" parent="globals/ToastsView" pc="268435672" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="41" parent="globals/ToastsView" pc="268435689" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="42" parent="globals/ToastsView" pc="268435705" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="43" parent="globals/ToastsView" pc="268435768" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="44" parent="globals/ToastsView" pc="268435831" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="45" parent="globals/ToastsView" pc="268435894" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="46" parent="globals/ToastsView" pc="268435957" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="47" parent="globals/ToastsView" pc="268436020" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="50" parent="globals/ToastsView" pc="268436086" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="5" lineNum="51" parent="globals/ToastsView" pc="268436102" symbol="onLayout"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="6" lineNum="125" parent="globals/ToastsView" pc="268436164" symbol="&lt;globals/ToastsView/&lt;&gt;loadMessages&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="6" lineNum="126" parent="globals/ToastsView" pc="268436167" symbol="&lt;globals/ToastsView/&lt;&gt;loadMessages&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="6" lineNum="127" parent="globals/ToastsView" pc="268436183" symbol="&lt;globals/ToastsView/&lt;&gt;loadMessages&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="6" lineNum="128" parent="globals/ToastsView" pc="268436206" symbol="&lt;globals/ToastsView/&lt;&gt;loadMessages&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="7" lineNum="116" parent="globals/ToastsView" pc="268436237" symbol="&lt;globals/ToastsView/&lt;&gt;getStringResourceId&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="7" lineNum="117" parent="globals/ToastsView" pc="268436239" symbol="&lt;globals/ToastsView/&lt;&gt;getStringResourceId&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="8" lineNum="27" parent="globals/ToastsView" pc="268436257" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="8" lineNum="28" parent="globals/ToastsView" pc="268436259" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="9" lineNum="62" parent="globals/ToastsView" pc="268436272" symbol="onHide"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="9" lineNum="63" parent="globals/ToastsView" pc="268436274" symbol="onHide"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="9" lineNum="64" parent="globals/ToastsView" pc="268436283" symbol="onHide"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="9" lineNum="65" parent="globals/ToastsView" pc="268436295" symbol="onHide"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="10" lineNum="133" parent="globals/ToastsView" pc="268436307" symbol="&lt;globals/ToastsView/&lt;&gt;loadLines&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="10" lineNum="134" parent="globals/ToastsView" pc="268436310" symbol="&lt;globals/ToastsView/&lt;&gt;loadLines&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="10" lineNum="135" parent="globals/ToastsView" pc="268436326" symbol="&lt;globals/ToastsView/&lt;&gt;loadLines&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="10" lineNum="136" parent="globals/ToastsView" pc="268436349" symbol="&lt;globals/ToastsView/&lt;&gt;loadLines&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="10" lineNum="137" parent="globals/ToastsView" pc="268436364" symbol="&lt;globals/ToastsView/&lt;&gt;loadLines&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="11" lineNum="99" parent="globals/ToastsView" pc="268436402" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="11" lineNum="100" parent="globals/ToastsView" pc="268436405" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="11" lineNum="101" parent="globals/ToastsView" pc="268436425" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="11" lineNum="103" parent="globals/ToastsView" pc="268436433" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="11" lineNum="104" parent="globals/ToastsView" pc="268436437" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="11" lineNum="105" parent="globals/ToastsView" pc="268436452" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="11" lineNum="107" parent="globals/ToastsView" pc="268436467" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="11" lineNum="109" parent="globals/ToastsView" pc="268436491" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="11" lineNum="110" parent="globals/ToastsView" pc="268436507" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="11" lineNum="111" parent="globals/ToastsView" pc="268436533" symbol="onUpdate"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="69" parent="globals/ToastsView" pc="268436554" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="70" parent="globals/ToastsView" pc="268436557" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="71" parent="globals/ToastsView" pc="268436564" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="72" parent="globals/ToastsView" pc="268436581" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="75" parent="globals/ToastsView" pc="268436601" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="76" parent="globals/ToastsView" pc="268436610" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="78" parent="globals/ToastsView" pc="268436625" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="80" parent="globals/ToastsView" pc="268436639" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="82" parent="globals/ToastsView" pc="268436663" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="84" parent="globals/ToastsView" pc="268436676" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="85" parent="globals/ToastsView" pc="268436683" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="87" parent="globals/ToastsView" pc="268436693" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="88" parent="globals/ToastsView" pc="268436705" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="90" parent="globals/ToastsView" pc="268436717" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="92" parent="globals/ToastsView" pc="268436745" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="93" parent="globals/ToastsView" pc="268436753" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="12" lineNum="96" parent="globals/ToastsView" pc="268436779" symbol="onTimer"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="13" lineNum="121" parent="globals/ToastsView" pc="268436791" symbol="&lt;globals/ToastsView/&lt;&gt;getBitmapResourceId&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsView.mc" id="13" lineNum="122" parent="globals/ToastsView" pc="268436793" symbol="&lt;globals/ToastsView/&lt;&gt;getBitmapResourceId&gt;"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsApp.mc" id="14" lineNum="12" parent="globals/ToastsApp" pc="268436811" symbol="getInitialView"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsApp.mc" id="14" lineNum="13" parent="globals/ToastsApp" pc="268436813" symbol="getInitialView"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsApp.mc" id="15" lineNum="7" parent="globals/ToastsApp" pc="268436843" symbol="initialize"/>
+        <entry filename="C:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\ToastsApp.mc" id="15" lineNum="8" parent="globals/ToastsApp" pc="268436845" symbol="initialize"/>
+        <entry filename="c:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\gen\\006-B4532-00\\source\\Rez.mcgen" id="16" lineNum="17" parent="globals/Rez/Layouts" pc="268436858" symbol="MainLayout"/>
+        <entry filename="c:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\gen\\006-B4532-00\\source\\Rez.mcgen" id="16" lineNum="18" parent="globals/Rez/Layouts" pc="268436869" symbol="MainLayout"/>
+        <entry filename="c:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\gen\\006-B4532-00\\source\\Rez.mcgen" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268436956" symbol="MainLayout"/>
+        <entry filename="c:\\DEV\\GarminDev\\garmin_timerapp_ia\\source\\gen\\006-B4532-00\\source\\Rez.mcgen" id="16" lineNum="21" parent="globals/Rez/Layouts" pc="268436998" symbol="MainLayout"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="60" symbol="NoMessage9"/>
+        <entry id="59" symbol="NoMessage8"/>
+        <entry id="58" symbol="NoMessage7"/>
+        <entry id="57" symbol="NoMessage6"/>
+        <entry id="56" symbol="NoMessage5"/>
+        <entry field="true" id="38" symbol="NoMessage4"/>
+        <entry field="true" id="37" symbol="NoMessage3"/>
+        <entry field="true" id="36" symbol="NoMessage2"/>
+        <entry field="true" id="35" symbol="NoMessage1"/>
+        <entry field="true" id="34" symbol="NoMessage0"/>
+        <entry id="55" symbol="MaybeMessage9"/>
+        <entry id="54" symbol="MaybeMessage8"/>
+        <entry id="53" symbol="MaybeMessage7"/>
+        <entry id="52" symbol="MaybeMessage6"/>
+        <entry id="51" symbol="MaybeMessage5"/>
+        <entry field="true" id="33" symbol="MaybeMessage4"/>
+        <entry field="true" id="32" symbol="MaybeMessage3"/>
+        <entry field="true" id="31" symbol="MaybeMessage2"/>
+        <entry field="true" id="30" symbol="MaybeMessage1"/>
+        <entry field="true" id="29" symbol="MaybeMessage0"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="25" symbol="YesImage"/>
+        <entry id="27" method="true" symbol="MainLayout"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="28" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry field="true" id="8388947" method="true" symbol="value"/>
+        <entry id="9" method="true" symbol="&lt;globals/ToastsView/&lt;&gt;getStringResourceId&gt;"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="18" symbol="mTickCounterToast"/>
+        <entry id="10" method="true" symbol="&lt;globals/ToastsView/&lt;&gt;loadLines&gt;"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="26" symbol="id_monkey"/>
+        <entry id="6" object="true" symbol="ToastsApp"/>
+        <entry field="true" id="16" symbol="mTextHeight"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="7" object="true" symbol="ToastsView"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry field="true" id="8389127" symbol="mText"/>
+        <entry field="true" id="14" symbol="mLines"/>
+        <entry id="8" method="true" symbol="&lt;globals/ToastsView/&lt;&gt;getBitmapResourceId&gt;"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="11" method="true" symbol="&lt;globals/ToastsView/&lt;&gt;loadMessages&gt;"/>
+        <entry field="true" id="23" symbol="MaybeImage"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="22" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="50" symbol="YesMessage9"/>
+        <entry field="true" id="49" symbol="YesMessage8"/>
+        <entry field="true" id="48" symbol="YesMessage7"/>
+        <entry field="true" id="47" symbol="YesMessage6"/>
+        <entry field="true" id="46" symbol="YesMessage5"/>
+        <entry field="true" id="45" symbol="YesMessage4"/>
+        <entry field="true" id="44" symbol="YesMessage3"/>
+        <entry field="true" id="43" symbol="YesMessage2"/>
+        <entry field="true" id="42" symbol="YesMessage1"/>
+        <entry field="true" id="41" symbol="YesMessage0"/>
+        <entry id="63" symbol="PromptLine4"/>
+        <entry id="62" symbol="PromptLine3"/>
+        <entry id="61" symbol="PromptLine2"/>
+        <entry field="true" id="40" symbol="PromptLine1"/>
+        <entry field="true" id="39" symbol="PromptLine0"/>
+        <entry id="8392158" symbol="icon"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8391962" module="true" symbol="Complications"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="15" symbol="mMessages"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="17" symbol="mTickCounter"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="21" module="true" symbol="Layouts"/>
+        <entry field="true" id="24" symbol="NoImage"/>
+        <entry field="true" id="13" symbol="mCenterY"/>
+        <entry field="true" id="12" symbol="mCenterX"/>
+        <entry field="true" id="19" symbol="mTimer"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry id="20" method="true" symbol="onTimer"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268436163" name="dc" stackId="1" startPc="268435597"/>
+        <entry endPc="268436162" name="shortTextData" stackId="2" startPc="268435600"/>
+        <entry arg="true" endPc="268436236" name="symbols" stackId="1" startPc="268436164"/>
+        <entry arg="true" endPc="268436236" name="image" stackId="2" startPc="268436164"/>
+        <entry arg="true" endPc="268436236" name="dict" stackId="3" startPc="268436164"/>
+        <entry endPc="268436235" name="i" stackId="4" startPc="268436183"/>
+        <entry arg="true" endPc="268436256" name="symbol" stackId="1" startPc="268436237"/>
+        <entry arg="true" endPc="268436401" name="symbols" stackId="1" startPc="268436307"/>
+        <entry arg="true" endPc="268436401" name="array" stackId="2" startPc="268436307"/>
+        <entry endPc="268436400" name="i" stackId="3" startPc="268436326"/>
+        <entry endPc="268436387" name="text_id" stackId="4" startPc="268436349"/>
+        <entry arg="true" endPc="268436553" name="dc" stackId="1" startPc="268436402"/>
+        <entry endPc="268436552" name="lines" stackId="2" startPc="268436405"/>
+        <entry endPc="268436552" name="cy" stackId="3" startPc="268436405"/>
+        <entry endPc="268436552" name="i" stackId="4" startPc="268436507"/>
+        <entry endPc="268436789" name="text" stackId="1" startPc="268436557"/>
+        <entry endPc="268436600" name="i" stackId="2" startPc="268436581"/>
+        <entry endPc="268436775" name="index" stackId="3" startPc="268436639"/>
+        <entry endPc="268436775" name="text_symbols" stackId="4" startPc="268436639"/>
+        <entry endPc="268436775" name="text_symbol" stackId="5" startPc="268436639"/>
+        <entry endPc="268436775" name="icon_symbol" stackId="6" startPc="268436639"/>
+        <entry endPc="268436775" name="title" stackId="7" startPc="268436639"/>
+        <entry endPc="268436775" name="icon" stackId="8" startPc="268436639"/>
+        <entry arg="true" endPc="268436810" name="symbol" stackId="1" startPc="268436791"/>
+        <entry arg="true" endPc="268437007" name="dc" stackId="1" startPc="268436858"/>
+        <entry endPc="268437007" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268436869"/>
+    </localVars>
+    <deviceInfo deviceVersion="decc989a3aea752762ecdbe6b3262a92939e1b36" partNumber="006-B4532-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="PromptLine0"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="typecheck" class="ToastsView" module="globals" symbol="getBitmapResourceId"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="YesImage"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="PromptLine1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MaybeMessage4"/>
+        <annotationEntry annotation="typecheck" class="ToastsView" module="globals" symbol="getStringResourceId"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MaybeMessage0"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MaybeMessage1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MaybeMessage2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MaybeMessage3"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NoMessage4"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="YesMessage4"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NoMessage3"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="YesMessage3"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NoMessage2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="YesMessage2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NoMessage1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="YesMessage1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="YesMessage0"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="YesMessage9"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NoMessage0"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="YesMessage8"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="YesMessage7"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="YesMessage6"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="MaybeImage"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="YesMessage5"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="NoImage"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/ToastsView" offset="116" parentId="globals" symbolId="ToastsView" type="class"/>
+        <dataEntry label="globals/Rez" offset="322" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/ToastsApp" offset="375" parentId="globals" symbolId="ToastsApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="428" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="499" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="534" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435489" name="&lt;init&gt;" parent="ToastsView" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435509" name="&lt;init&gt;" parent="Rez" startPc="268435490">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435521" name="&lt;init&gt;" parent="ToastsApp" startPc="268435510">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435596" name="onShow" parent="ToastsView" startPc="268435522">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436163" name="onLayout" parent="ToastsView" startPc="268435597">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436236" name="&lt;globals/ToastsView/&lt;&gt;loadMessages&gt;" parent="ToastsView" startPc="268436164">
+            <param id="symbols"/>
+            <param id="image"/>
+            <param id="dict"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436256" name="&lt;globals/ToastsView/&lt;&gt;getStringResourceId&gt;" parent="ToastsView" startPc="268436237">
+            <param id="symbol"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436271" name="initialize" parent="ToastsView" startPc="268436257">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436306" name="onHide" parent="ToastsView" startPc="268436272">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436401" name="&lt;globals/ToastsView/&lt;&gt;loadLines&gt;" parent="ToastsView" startPc="268436307">
+            <param id="symbols"/>
+            <param id="array"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436553" name="onUpdate" parent="ToastsView" startPc="268436402">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436790" name="onTimer" parent="ToastsView" startPc="268436554">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436810" name="&lt;globals/ToastsView/&lt;&gt;getBitmapResourceId&gt;" parent="ToastsView" startPc="268436791">
+            <param id="symbol"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436842" name="getInitialView" parent="ToastsApp" startPc="268436811">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436857" name="initialize" parent="ToastsApp" startPc="268436843">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437007" name="MainLayout" parent="Layouts" startPc="268436858">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

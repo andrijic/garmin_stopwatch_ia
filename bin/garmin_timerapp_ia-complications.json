@@ -1,0 +1,24 @@
+{
+  "complications" : [ {
+    "ciqId" : {
+      "id" : 200,
+      "devicePartNumber" : "006-B4532-00"
+    },
+    "icon" : "c834354a.png",
+    "title" : "myLongLabel",
+    "defaultLayoutId" : 0,
+    "layouts" : [ {
+      "id" : 0,
+      "iconContent" : "c834354a.svg",
+      "iconPosition" : "left",
+      "textDefault" : "complicationName",
+      "textPosition" : "right"
+    } ]
+  } ],
+  "strings" : {
+    "default" : {
+      "myLongLabel" : "Long label",
+      "complicationName" : "faceIt text"
+    }
+  }
+}

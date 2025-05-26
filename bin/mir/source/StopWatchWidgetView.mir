@@ -1,0 +1,925 @@
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; @symbol_usingAlias = [Ui,1,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Timer,2,13,18]; @symbol_usingAlias = [Timer,2,22,27]; ]
+using Toybox.Timer as :Timer;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Time,3,13,17]; @symbol_usingAlias = [Time,3,21,25]; ]
+using Toybox.Time as :Time;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; @symbol_usingAlias = [Gfx,4,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Time,5,13,17]; @symbol_usingdef<2> = [Gregorian,5,18,27]; ]
+using Toybox.Time.Gregorian;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 6; @symbol_usingdef<0> = [Toybox,6,6,12]; @symbol_usingdef<1> = [Application,6,13,24]; ]
+using Toybox.Application;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 7; @symbol_usingdef<0> = [Toybox,7,6,12]; @symbol_usingdef<1> = [Math,7,13,17]; ]
+using Toybox.Math;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 8; @symbol_usingdef<0> = [Toybox,8,6,12]; @symbol_usingdef<1> = [System,8,13,19]; ]
+using Toybox.System;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 9; @symbol_usingdef<0> = [Toybox,9,6,12]; @symbol_usingdef<1> = [Time,9,13,17]; @symbol_usingdef<2> = [Gregorian,9,18,27]; ]
+using Toybox.Time.Gregorian;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 11; @position = 4; @symbol_vardef = [startTime,11,4,13]; ]
+var startTime = 0;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 12; @position = 4; @symbol_vardef = [pausedTime,12,4,14]; ]
+var pausedTime = 0;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 13; @position = 4; @symbol_vardef = [delta,13,4,9]; ]
+var delta = 0;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 14; @position = 4; @symbol_vardef = [running,14,4,11]; ]
+var running = false;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 16; @position = 4; @symbol_vardef = [timer1,16,4,10]; ]
+var timer1 = null;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 17; @position = 4; @symbol_vardef = [childViewCreated,17,4,20]; ]
+var childViewCreated = false;
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 19; @symbol_classdef = [StopWatchWidgetView,19,6,25]; @symbol_extends<0> = [Ui,19,34,36]; @symbol_extends<1> = [View,19,37,41]; ]
+class StopWatchWidgetView extends Ui.View {
+    [ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 19; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 19; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 21; @symbol_functiondef = [secondPassedEvent,21,10,27]; ]
+    function secondPassedEvent() {
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_21_29_23_1_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 22 2 ]
+        symbol [ Ui %tmp.1 22 2 4 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.2 22 5 18 ];
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_21_29_23_1_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 25; @symbol_functiondef = [initialize,25,13,23]; ]
+    function initialize() as Void {
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_25_26_27_4_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 26 8 ]
+        symbol [ View %tmp.2 26 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 26 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_25_26_27_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 30; @symbol_functiondef = [onLayout,30,13,21]; @symbol_param<0> = [dc,30,22,24]; ]
+    function onLayout(dc) {
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_30_26_49_4_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 31 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 31 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 31 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 31 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ MainLayout %tmp.6 31 30 40 ];
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 31 41 43 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 32 8 ]
+        symbol [ View %tmp.10 32 8 12 ];
+        %tmp.10 = getv ? :View;
+        symbol [ onUpdate %tmp.11 32 13 21 ];
+        %tmp.11 = getv function %tmp.10 :onUpdate;
+        %tmp.12 = lgetv %dc;
+        symbol [ dc %tmp.12 32 22 24 ];
+        invoke %tmp.10 %tmp.11(%tmp.12);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 34 2 ]
+        %tmp.13 = self;
+        symbol [ restoreProperties %tmp.14 34 2 19 ];
+        %tmp.14 = getv function %tmp.13 :restoreProperties;
+        invoke %tmp.13 %tmp.14();
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 36 2 ]
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_36_2_40_2_if_stmt:
+        symbol [ childViewCreated %tmp.16 36 5 21 ];
+        %tmp.16 = getv ? :childViewCreated;
+        %tmp.17 = false;
+        %tmp.18 = eq %tmp.16 %tmp.17;
+        bf %tmp.18 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_36_2_40_2_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_36_2_40_2_if_true:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_36_31_40_2_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 37 8 ]
+        symbol [ System %tmp.19 37 8 14 ];
+        %tmp.19 = getm $.Toybox.System;
+        symbol [ println %tmp.20 37 15 22 ];
+        %tmp.20 = getv function %tmp.19 :println;
+        %tmp.21 = "new view 0";
+        invoke %tmp.19 %tmp.20(%tmp.21);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 38 8 ]
+        %tmp.22 = true;
+        symbol [ childViewCreated ? 38 8 24 ];
+        putv self :childViewCreated %tmp.22;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 39 8 ]
+        symbol [ Ui %tmp.23 39 8 10 ];
+        %tmp.23 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.24 39 11 19 ];
+        %tmp.24 = getv function %tmp.23 :pushView;
+        symbol [ StopWatchWidgetView %tmp.28 39 24 43 ];
+        %tmp.28 = getv ? :StopWatchWidgetView;
+        %tmp.25 = newc %tmp.28 ();
+        symbol [ MyInputDelegate %tmp.32 39 51 66 ];
+        %tmp.32 = getv ? :MyInputDelegate;
+        %tmp.29 = newc %tmp.32 ();
+        symbol [ Ui %tmp.33 39 70 72 ];
+        %tmp.33 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.34 39 73 88 ];
+        %tmp.34 = getv %tmp.33 :SLIDE_IMMEDIATE;
+        invoke %tmp.23 %tmp.24(%tmp.25, %tmp.29, %tmp.34);
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_36_31_40_2_stop:
+        goto @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_36_2_40_2_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_36_2_40_2_if_end:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 42 5 ]
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_42_5_46_8_if_stmt:
+        symbol [ timer1 %tmp.36 42 8 14 ];
+        %tmp.36 = getv ? :timer1;
+        %tmp.37 = null;
+        %tmp.38 = eq %tmp.36 %tmp.37;
+        bf %tmp.38 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_42_5_46_8_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_42_5_46_8_if_true:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_42_23_46_8_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 43 6 ]
+        symbol [ System %tmp.39 43 6 12 ];
+        %tmp.39 = getm $.Toybox.System;
+        symbol [ println %tmp.40 43 13 20 ];
+        %tmp.40 = getv function %tmp.39 :println;
+        %tmp.41 = "start timer";
+        invoke %tmp.39 %tmp.40(%tmp.41);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 44 6 ]
+        symbol [ Timer %tmp.44 44 19 24 ];
+        %tmp.44 = getm $.Toybox.Timer;
+        symbol [ Timer %tmp.45 44 25 30 ];
+        %tmp.45 = getv function ? %tmp.44 :Timer;
+        %tmp.42 = newc %tmp.45 ();
+        symbol [ timer1 ? 44 6 12 ];
+        putv self :timer1 %tmp.42;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 45 9 ]
+        symbol [ timer1 %tmp.47 45 9 15 ];
+        %tmp.47 = getv ? :timer1;
+        symbol [ start %tmp.48 45 16 21 ];
+        %tmp.48 = getv function %tmp.47 :start;
+        %tmp.49 = self;
+        symbol [ method %tmp.50 45 22 28 ];
+        %tmp.50 = getv function %tmp.49 :method;
+        %tmp.52 = const :secondPassedEvent;
+        symbol [ secondPassedEvent %tmp.52 45 30 47 const ];
+        %tmp.53 = invoke %tmp.49 %tmp.50(%tmp.52);
+        %tmp.54 = 100;
+        %tmp.55 = true;
+        invoke %tmp.47 %tmp.48(%tmp.53, %tmp.54, %tmp.55);
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_42_23_46_8_stop:
+        goto @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_42_5_46_8_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_42_5_46_8_if_end:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 48 8 ]
+        %tmp.56 = self;
+        symbol [ onUpdate %tmp.57 48 8 16 ];
+        %tmp.57 = getv function %tmp.56 :onUpdate;
+        %tmp.58 = lgetv %dc;
+        symbol [ dc %tmp.58 48 17 19 ];
+        invoke %tmp.56 %tmp.57(%tmp.58);
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_30_26_49_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 54; @symbol_functiondef = [onShow,54,13,19]; ]
+    function onShow() {
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 57; @symbol_functiondef = [setStartTime,57,13,25]; ]
+    function setStartTime() {
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_57_27_60_4_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 58 9 ]
+        symbol [ System %tmp.1 58 21 27 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getTimer %tmp.2 58 28 36 ];
+        %tmp.2 = getv function %tmp.1 :getTimer;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ startTime ? 58 9 18 ];
+        putv self :startTime %tmp.3;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 59 6 ]
+        symbol [ StopWatchWidgetView %tmp.5 59 6 25 ];
+        %tmp.5 = getv ? :StopWatchWidgetView;
+        symbol [ saveMyProperties %tmp.6 59 26 42 ];
+        %tmp.6 = getv function %tmp.5 :saveMyProperties;
+        invoke %tmp.5 %tmp.6();
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_57_27_60_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 62; @symbol_functiondef = [resetStartTime,62,13,27]; ]
+    function resetStartTime() {
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_62_29_69_4_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 63 5 ]
+        %tmp.1 = 0;
+        symbol [ startTime ? 63 5 14 ];
+        putv self :startTime %tmp.1;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 64 5 ]
+        %tmp.2 = false;
+        symbol [ running ? 64 5 12 ];
+        putv self :running %tmp.2;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 65 5 ]
+        %tmp.3 = 0;
+        symbol [ pausedTime ? 65 5 15 ];
+        putv self :pausedTime %tmp.3;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 66 5 ]
+        %tmp.4 = 0;
+        symbol [ delta ? 66 5 10 ];
+        putv self :delta %tmp.4;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 68 5 ]
+        symbol [ StopWatchWidgetView %tmp.6 68 5 24 ];
+        %tmp.6 = getv ? :StopWatchWidgetView;
+        symbol [ saveMyProperties %tmp.7 68 25 41 ];
+        %tmp.7 = getv function %tmp.6 :saveMyProperties;
+        invoke %tmp.6 %tmp.7();
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_62_29_69_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 73; @symbol_functiondef = [onUpdate,73,13,21]; @symbol_param<0> = [dc,73,22,24]; ]
+    function onUpdate(dc) {
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 77 8 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_stop" ]
+        %string.1 = local;
+        symbol [ string %string.1 77 12 18 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 80 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 80 8 10 ];
+        symbol [ setColor %tmp.2 80 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Gfx %tmp.3 80 20 23 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.4 80 24 35 ];
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        symbol [ Gfx %tmp.5 80 37 40 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.6 80 41 52 ];
+        %tmp.6 = getv %tmp.5 :COLOR_WHITE;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 81 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 81 8 10 ];
+        symbol [ clear %tmp.8 81 11 16 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 82 8 ]
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 82 8 10 ];
+        symbol [ setColor %tmp.10 82 11 19 ];
+        %tmp.10 = getv function %tmp.9 :setColor;
+        symbol [ Gfx %tmp.11 82 20 23 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_BLUE %tmp.12 82 24 37 ];
+        %tmp.12 = getv %tmp.11 :COLOR_DK_BLUE;
+        symbol [ Gfx %tmp.13 82 39 42 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.14 82 43 60 ];
+        %tmp.14 = getv %tmp.13 :COLOR_TRANSPARENT;
+        invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 85 8 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_stop" ]
+        %today.2 = local;
+        symbol [ today %today.2 85 12 17 ];
+        symbol [ Gregorian %tmp.15 85 20 29 ];
+        %tmp.15 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.16 85 30 34 ];
+        %tmp.16 = getv function %tmp.15 :info;
+        symbol [ Time %tmp.17 85 35 39 ];
+        %tmp.17 = getm $.Toybox.Time;
+        symbol [ now %tmp.18 85 40 43 ];
+        %tmp.18 = getv function %tmp.17 :now;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        symbol [ Time %tmp.20 85 47 51 ];
+        %tmp.20 = getm $.Toybox.Time;
+        symbol [ FORMAT_MEDIUM %tmp.21 85 52 65 ];
+        %tmp.21 = getv %tmp.20 :FORMAT_MEDIUM;
+        %tmp.22 = invoke %tmp.15 %tmp.16(%tmp.19, %tmp.21);
+        lputv %today.2 %tmp.22;
+        symbol [ today %today.2 85 12 17 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 86 8 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_stop" ]
+        %clockString.3 = local;
+        symbol [ clockString %clockString.3 86 12 23 ];
+        symbol [ Lang %tmp.24 86 26 30 ];
+        %tmp.24 = getv ? :Lang;
+        symbol [ format %tmp.25 86 31 37 ];
+        %tmp.25 = getv function %tmp.24 :format;
+        %tmp.26 = "$1$:$2$";
+        %tmp.27 = newa 2;
+        %tmp.28 = lgetv %today.2;
+        symbol [ today %tmp.28 89 10 15 ];
+        symbol [ hour %tmp.29 89 16 20 ];
+        %tmp.29 = getv %tmp.28 :hour;
+        symbol [ format %tmp.30 89 21 27 ];
+        %tmp.30 = getv function %tmp.29 :format;
+        %tmp.31 = "%02d";
+        %tmp.32 = invoke %tmp.29 %tmp.30(%tmp.31);
+        %tmp.33 = dup %tmp.27;
+        %tmp.34 = aputv %tmp.33 0 %tmp.32;
+        %tmp.35 = lgetv %today.2;
+        symbol [ today %tmp.35 90 10 15 ];
+        symbol [ min %tmp.36 90 16 19 ];
+        %tmp.36 = getv %tmp.35 :min;
+        symbol [ format %tmp.37 90 20 26 ];
+        %tmp.37 = getv function %tmp.36 :format;
+        %tmp.38 = "%02d";
+        %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
+        %tmp.40 = dup %tmp.34;
+        %tmp.41 = aputv %tmp.40 1 %tmp.39;
+        %tmp.42 = invoke %tmp.24 %tmp.25(%tmp.26, %tmp.41);
+        lputv %clockString.3 %tmp.42;
+        symbol [ clockString %clockString.3 86 12 23 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 98 8 ]
+        %tmp.43 = lgetv %dc;
+        symbol [ dc %tmp.43 98 8 10 ];
+        symbol [ drawText %tmp.44 98 11 19 ];
+        %tmp.44 = getv function %tmp.43 :drawText;
+        %tmp.45 = lgetv %dc;
+        symbol [ dc %tmp.45 98 21 23 ];
+        symbol [ getWidth %tmp.46 98 24 32 ];
+        %tmp.46 = getv function %tmp.45 :getWidth;
+        %tmp.47 = invoke %tmp.45 %tmp.46();
+        %tmp.48 = 2;
+        %tmp.49 = div %tmp.47 %tmp.48;
+        %tmp.50 = 7;
+        symbol [ Gfx %tmp.51 98 42 45 ];
+        %tmp.51 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.52 98 46 57 ];
+        %tmp.52 = getv %tmp.51 :FONT_MEDIUM;
+        %tmp.53 = lgetv %clockString.3;
+        symbol [ clockString %tmp.53 98 59 70 ];
+        symbol [ Gfx %tmp.54 98 72 75 ];
+        %tmp.54 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.55 98 76 95 ];
+        %tmp.55 = getv %tmp.54 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.43 %tmp.44(%tmp.49, %tmp.50, %tmp.52, %tmp.53, %tmp.55);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 101 8 ]
+        %tmp.56 = lgetv %dc;
+        symbol [ dc %tmp.56 101 8 10 ];
+        symbol [ drawLine %tmp.57 101 11 19 ];
+        %tmp.57 = getv function %tmp.56 :drawLine;
+        %tmp.58 = 0;
+        %tmp.59 = 40;
+        %tmp.60 = lgetv %dc;
+        symbol [ dc %tmp.60 101 27 29 ];
+        symbol [ getWidth %tmp.61 101 30 38 ];
+        %tmp.61 = getv function %tmp.60 :getWidth;
+        %tmp.62 = invoke %tmp.60 %tmp.61();
+        %tmp.63 = 40;
+        invoke %tmp.56 %tmp.57(%tmp.58, %tmp.59, %tmp.62, %tmp.63);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 104 2 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_stop" ]
+        %currentTime.4 = local;
+        symbol [ currentTime %currentTime.4 104 6 17 ];
+        symbol [ System %tmp.64 104 20 26 ];
+        %tmp.64 = getm $.Toybox.System;
+        symbol [ getTimer %tmp.65 104 27 35 ];
+        %tmp.65 = getv function %tmp.64 :getTimer;
+        %tmp.66 = invoke %tmp.64 %tmp.65();
+        lputv %currentTime.4 %tmp.66;
+        symbol [ currentTime %currentTime.4 104 6 17 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 106 2 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_stop" ]
+        %resp.5 = local;
+        symbol [ resp %resp.5 106 6 10 ];
+        %tmp.67 = 0;
+        lputv %resp.5 %tmp.67;
+        symbol [ resp %resp.5 106 6 10 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 108 2 ]
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_108_2_116_8_if_stmt:
+        symbol [ running %tmp.69 108 5 12 ];
+        %tmp.69 = getv ? :running;
+        %tmp.70 = false;
+        %tmp.71 = eq %tmp.69 %tmp.70;
+        bf %tmp.71 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_108_2_116_8_if_else_false;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_108_2_116_8_if_true:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_108_22_114_8_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 109 9 ]
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_109_9_113_9_if_stmt:
+        symbol [ pausedTime %tmp.73 109 12 22 ];
+        %tmp.73 = getv ? :pausedTime;
+        %tmp.74 = 0;
+        %tmp.75 = ne %tmp.73 %tmp.74;
+        bf %tmp.75 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_109_9_113_9_if_else_false;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_109_9_113_9_if_true:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_109_28_111_9_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 110 10 ]
+        symbol [ pausedTime %tmp.77 110 17 27 ];
+        %tmp.77 = getv ? :pausedTime;
+        symbol [ startTime %tmp.79 110 30 39 ];
+        %tmp.79 = getv ? :startTime;
+        %tmp.80 = sub %tmp.77 %tmp.79;
+        symbol [ delta %tmp.82 110 42 47 ];
+        %tmp.82 = getv ? :delta;
+        %tmp.83 = sub %tmp.80 %tmp.82;
+        lputv %resp.5 %tmp.83;
+        symbol [ resp %resp.5 110 10 14 ];
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_109_28_111_9_stop:
+        goto @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_109_9_113_9_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_109_9_113_9_if_else_false:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_111_14_113_9_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 112 10 ]
+        %tmp.84 = 0;
+        lputv %resp.5 %tmp.84;
+        symbol [ resp %resp.5 112 10 14 ];
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_111_14_113_9_stop:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_109_9_113_9_if_end:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_108_22_114_8_stop:
+        goto @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_108_2_116_8_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_108_2_116_8_if_else_false:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_114_13_116_8_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 115 9 ]
+        %tmp.85 = lgetv %currentTime.4;
+        symbol [ currentTime %tmp.85 115 16 27 ];
+        symbol [ startTime %tmp.87 115 30 39 ];
+        %tmp.87 = getv ? :startTime;
+        %tmp.88 = sub %tmp.85 %tmp.87;
+        symbol [ delta %tmp.90 115 42 47 ];
+        %tmp.90 = getv ? :delta;
+        %tmp.91 = sub %tmp.88 %tmp.90;
+        lputv %resp.5 %tmp.91;
+        symbol [ resp %resp.5 115 9 13 ];
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_114_13_116_8_stop:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_108_2_116_8_if_end:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 118 2 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_stop" ]
+        %hours.6 = local;
+        symbol [ hours %hours.6 118 6 11 ];
+        symbol [ Math %tmp.92 118 14 18 ];
+        %tmp.92 = getm $.Toybox.Math;
+        symbol [ floor %tmp.93 118 19 24 ];
+        %tmp.93 = getv function %tmp.92 :floor;
+        %tmp.94 = lgetv %resp.5;
+        symbol [ resp %tmp.94 118 25 29 ];
+        %tmp.95 = 3600000l;
+        %tmp.96 = div %tmp.94 %tmp.95;
+        %tmp.97 = invoke %tmp.92 %tmp.93(%tmp.96);
+        lputv %hours.6 %tmp.97;
+        symbol [ hours %hours.6 118 6 11 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 119 2 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_stop" ]
+        %minutes.7 = local;
+        symbol [ minutes %minutes.7 119 6 13 ];
+        symbol [ Math %tmp.98 119 16 20 ];
+        %tmp.98 = getm $.Toybox.Math;
+        symbol [ floor %tmp.99 119 21 26 ];
+        %tmp.99 = getv function %tmp.98 :floor;
+        %tmp.100 = lgetv %resp.5;
+        symbol [ resp %tmp.100 119 28 32 ];
+        %tmp.101 = lgetv %hours.6;
+        symbol [ hours %tmp.101 119 35 40 ];
+        %tmp.102 = 3600000l;
+        %tmp.103 = mul %tmp.101 %tmp.102;
+        %tmp.104 = sub %tmp.100 %tmp.103;
+        %tmp.105 = 60000l;
+        %tmp.106 = div %tmp.104 %tmp.105;
+        %tmp.107 = invoke %tmp.98 %tmp.99(%tmp.106);
+        lputv %minutes.7 %tmp.107;
+        symbol [ minutes %minutes.7 119 6 13 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 120 2 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_stop" ]
+        %seconds.8 = local;
+        symbol [ seconds %seconds.8 120 6 13 ];
+        symbol [ Math %tmp.108 120 16 20 ];
+        %tmp.108 = getm $.Toybox.Math;
+        symbol [ floor %tmp.109 120 21 26 ];
+        %tmp.109 = getv function %tmp.108 :floor;
+        %tmp.110 = lgetv %resp.5;
+        symbol [ resp %tmp.110 120 28 32 ];
+        %tmp.111 = lgetv %hours.6;
+        symbol [ hours %tmp.111 120 35 40 ];
+        %tmp.112 = 3600000l;
+        %tmp.113 = mul %tmp.111 %tmp.112;
+        %tmp.114 = sub %tmp.110 %tmp.113;
+        %tmp.115 = lgetv %minutes.7;
+        symbol [ minutes %tmp.115 120 52 59 ];
+        %tmp.116 = 60000l;
+        %tmp.117 = mul %tmp.115 %tmp.116;
+        %tmp.118 = sub %tmp.114 %tmp.117;
+        %tmp.119 = 1000l;
+        %tmp.120 = div %tmp.118 %tmp.119;
+        %tmp.121 = invoke %tmp.108 %tmp.109(%tmp.120);
+        lputv %seconds.8 %tmp.121;
+        symbol [ seconds %seconds.8 120 6 13 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 121 2 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_stop" ]
+        %hundreds.9 = local;
+        symbol [ hundreds %hundreds.9 121 6 14 ];
+        symbol [ Math %tmp.122 121 17 21 ];
+        %tmp.122 = getm $.Toybox.Math;
+        symbol [ floor %tmp.123 121 22 27 ];
+        %tmp.123 = getv function %tmp.122 :floor;
+        %tmp.124 = lgetv %resp.5;
+        symbol [ resp %tmp.124 121 29 33 ];
+        %tmp.125 = lgetv %hours.6;
+        symbol [ hours %tmp.125 121 36 41 ];
+        %tmp.126 = 3600000l;
+        %tmp.127 = mul %tmp.125 %tmp.126;
+        %tmp.128 = sub %tmp.124 %tmp.127;
+        %tmp.129 = lgetv %minutes.7;
+        symbol [ minutes %tmp.129 121 53 60 ];
+        %tmp.130 = 60000l;
+        %tmp.131 = mul %tmp.129 %tmp.130;
+        %tmp.132 = sub %tmp.128 %tmp.131;
+        %tmp.133 = lgetv %seconds.8;
+        symbol [ seconds %tmp.133 121 70 77 ];
+        %tmp.134 = 1000l;
+        %tmp.135 = mul %tmp.133 %tmp.134;
+        %tmp.136 = sub %tmp.132 %tmp.135;
+        %tmp.137 = 10;
+        %tmp.138 = div %tmp.136 %tmp.137;
+        %tmp.139 = invoke %tmp.122 %tmp.123(%tmp.138);
+        lputv %hundreds.9 %tmp.139;
+        symbol [ hundreds %hundreds.9 121 6 14 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 123 2 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_stop" ]
+        %dateString.10 = local;
+        symbol [ dateString %dateString.10 123 6 16 ];
+        symbol [ Lang %tmp.141 123 19 23 ];
+        %tmp.141 = getv ? :Lang;
+        symbol [ format %tmp.142 123 24 30 ];
+        %tmp.142 = getv function %tmp.141 :format;
+        %tmp.143 = "$1$:$2$:$3$:$4$";
+        %tmp.144 = newa 4;
+        %tmp.145 = lgetv %hours.6;
+        symbol [ hours %tmp.145 126 10 15 ];
+        symbol [ format %tmp.146 126 16 22 ];
+        %tmp.146 = getv function %tmp.145 :format;
+        %tmp.147 = "%02d";
+        %tmp.148 = invoke %tmp.145 %tmp.146(%tmp.147);
+        %tmp.149 = dup %tmp.144;
+        %tmp.150 = aputv %tmp.149 0 %tmp.148;
+        %tmp.151 = lgetv %minutes.7;
+        symbol [ minutes %tmp.151 127 10 17 ];
+        symbol [ format %tmp.152 127 18 24 ];
+        %tmp.152 = getv function %tmp.151 :format;
+        %tmp.153 = "%02d";
+        %tmp.154 = invoke %tmp.151 %tmp.152(%tmp.153);
+        %tmp.155 = dup %tmp.150;
+        %tmp.156 = aputv %tmp.155 1 %tmp.154;
+        %tmp.157 = lgetv %seconds.8;
+        symbol [ seconds %tmp.157 128 10 17 ];
+        symbol [ format %tmp.158 128 18 24 ];
+        %tmp.158 = getv function %tmp.157 :format;
+        %tmp.159 = "%02d";
+        %tmp.160 = invoke %tmp.157 %tmp.158(%tmp.159);
+        %tmp.161 = dup %tmp.156;
+        %tmp.162 = aputv %tmp.161 2 %tmp.160;
+        %tmp.163 = lgetv %hundreds.9;
+        symbol [ hundreds %tmp.163 129 10 18 ];
+        symbol [ format %tmp.164 129 19 25 ];
+        %tmp.164 = getv function %tmp.163 :format;
+        %tmp.165 = "%02d";
+        %tmp.166 = invoke %tmp.163 %tmp.164(%tmp.165);
+        %tmp.167 = dup %tmp.162;
+        %tmp.168 = aputv %tmp.167 3 %tmp.166;
+        %tmp.169 = invoke %tmp.141 %tmp.142(%tmp.143, %tmp.168);
+        lputv %dateString.10 %tmp.169;
+        symbol [ dateString %dateString.10 123 6 16 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 132 2 ]
+        %tmp.170 = lgetv %dc;
+        symbol [ dc %tmp.170 132 2 4 ];
+        symbol [ setColor %tmp.171 132 5 13 ];
+        %tmp.171 = getv function %tmp.170 :setColor;
+        symbol [ Gfx %tmp.172 132 14 17 ];
+        %tmp.172 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_RED %tmp.173 132 18 30 ];
+        %tmp.173 = getv %tmp.172 :COLOR_DK_RED;
+        symbol [ Gfx %tmp.174 132 35 38 ];
+        %tmp.174 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.175 132 39 56 ];
+        %tmp.175 = getv %tmp.174 :COLOR_TRANSPARENT;
+        invoke %tmp.170 %tmp.171(%tmp.173, %tmp.175);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 133 2 ]
+        %tmp.176 = lgetv %dateString.10;
+        symbol [ dateString %tmp.176 133 11 21 ];
+        lputv %string.1 %tmp.176;
+        symbol [ string %string.1 133 2 8 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 134 8 ]
+        %tmp.177 = lgetv %dc;
+        symbol [ dc %tmp.177 134 8 10 ];
+        symbol [ drawText %tmp.178 134 11 19 ];
+        %tmp.178 = getv function %tmp.177 :drawText;
+        %tmp.179 = lgetv %dc;
+        symbol [ dc %tmp.179 134 21 23 ];
+        symbol [ getWidth %tmp.180 134 24 32 ];
+        %tmp.180 = getv function %tmp.179 :getWidth;
+        %tmp.181 = invoke %tmp.179 %tmp.180();
+        %tmp.182 = 2;
+        %tmp.183 = div %tmp.181 %tmp.182;
+        %tmp.184 = lgetv %dc;
+        symbol [ dc %tmp.184 134 39 41 ];
+        symbol [ getHeight %tmp.185 134 42 51 ];
+        %tmp.185 = getv function %tmp.184 :getHeight;
+        %tmp.186 = invoke %tmp.184 %tmp.185();
+        %tmp.187 = 2;
+        %tmp.188 = div %tmp.186 %tmp.187;
+        %tmp.189 = 20;
+        %tmp.190 = sub %tmp.188 %tmp.189;
+        symbol [ Gfx %tmp.191 134 65 68 ];
+        %tmp.191 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.192 134 69 79 ];
+        %tmp.192 = getv %tmp.191 :FONT_LARGE;
+        %tmp.193 = lgetv %string.1;
+        symbol [ string %tmp.193 134 81 87 ];
+        symbol [ Gfx %tmp.194 134 89 92 ];
+        %tmp.194 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.195 134 93 112 ];
+        %tmp.195 = getv %tmp.194 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.177 %tmp.178(%tmp.183, %tmp.190, %tmp.192, %tmp.193, %tmp.195);
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_73_26_138_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 143; @symbol_functiondef = [onHide,143,13,19]; ]
+    function onHide() {
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_143_22_145_4_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 144 5 ]
+        symbol [ StopWatchWidgetView %tmp.2 144 5 24 ];
+        %tmp.2 = getv ? :StopWatchWidgetView;
+        symbol [ saveMyProperties %tmp.3 144 25 41 ];
+        %tmp.3 = getv function %tmp.2 :saveMyProperties;
+        invoke %tmp.2 %tmp.3();
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_143_22_145_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 147; @symbol_functiondef = [restoreProperties,147,13,30]; ]
+    function restoreProperties() {
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_147_32_178_4_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 148 5 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_147_32_178_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_147_32_178_4_stop" ]
+        %app.1 = local;
+        symbol [ app %app.1 148 9 12 ];
+        symbol [ Application %tmp.1 148 15 26 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.2 148 27 33 ];
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %app.1 %tmp.3;
+        symbol [ app %app.1 148 9 12 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 149 5 ]
+        %tmp.4 = lgetv %app.1;
+        symbol [ app %tmp.4 149 17 20 ];
+        symbol [ getProperty %tmp.5 149 21 32 ];
+        %tmp.5 = getv function %tmp.4 :getProperty;
+        symbol [ STOPWATCH_IA_START %tmp.7 149 33 51 ];
+        %tmp.7 = getv ? :STOPWATCH_IA_START;
+        %tmp.8 = invoke %tmp.4 %tmp.5(%tmp.7);
+        symbol [ startTime ? 149 5 14 ];
+        putv self :startTime %tmp.8;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 150 5 ]
+        %tmp.9 = lgetv %app.1;
+        symbol [ app %tmp.9 150 18 21 ];
+        symbol [ getProperty %tmp.10 150 22 33 ];
+        %tmp.10 = getv function %tmp.9 :getProperty;
+        symbol [ STOPWATCH_IA_PAUSEDTIME %tmp.12 150 34 57 ];
+        %tmp.12 = getv ? :STOPWATCH_IA_PAUSEDTIME;
+        %tmp.13 = invoke %tmp.9 %tmp.10(%tmp.12);
+        symbol [ pausedTime ? 150 5 15 ];
+        putv self :pausedTime %tmp.13;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 151 5 ]
+        %tmp.14 = lgetv %app.1;
+        symbol [ app %tmp.14 151 13 16 ];
+        symbol [ getProperty %tmp.15 151 17 28 ];
+        %tmp.15 = getv function %tmp.14 :getProperty;
+        symbol [ STOPWATCH_IA_delta %tmp.17 151 29 47 ];
+        %tmp.17 = getv ? :STOPWATCH_IA_delta;
+        %tmp.18 = invoke %tmp.14 %tmp.15(%tmp.17);
+        symbol [ delta ? 151 5 10 ];
+        putv self :delta %tmp.18;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 152 5 ]
+        %tmp.19 = lgetv %app.1;
+        symbol [ app %tmp.19 152 15 18 ];
+        symbol [ getProperty %tmp.20 152 19 30 ];
+        %tmp.20 = getv function %tmp.19 :getProperty;
+        symbol [ STOPWATCH_IA_RUNNING %tmp.22 152 31 51 ];
+        %tmp.22 = getv ? :STOPWATCH_IA_RUNNING;
+        %tmp.23 = invoke %tmp.19 %tmp.20(%tmp.22);
+        symbol [ running ? 152 5 12 ];
+        putv self :running %tmp.23;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 154 5 ]
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_154_5_156_5_if_stmt:
+        symbol [ startTime %tmp.25 154 8 17 ];
+        %tmp.25 = getv ? :startTime;
+        %tmp.26 = null;
+        %tmp.27 = eq %tmp.25 %tmp.26;
+        bf %tmp.27 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_154_5_156_5_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_154_5_156_5_if_true:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_154_26_156_5_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 155 6 ]
+        %tmp.28 = 0;
+        symbol [ startTime ? 155 6 15 ];
+        putv self :startTime %tmp.28;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_154_26_156_5_stop:
+        goto @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_154_5_156_5_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_154_5_156_5_if_end:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 157 5 ]
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_157_5_159_5_if_stmt:
+        symbol [ pausedTime %tmp.30 157 8 18 ];
+        %tmp.30 = getv ? :pausedTime;
+        %tmp.31 = null;
+        %tmp.32 = eq %tmp.30 %tmp.31;
+        bf %tmp.32 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_157_5_159_5_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_157_5_159_5_if_true:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_157_27_159_5_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 158 6 ]
+        %tmp.33 = 0;
+        symbol [ pausedTime ? 158 6 16 ];
+        putv self :pausedTime %tmp.33;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_157_27_159_5_stop:
+        goto @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_157_5_159_5_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_157_5_159_5_if_end:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 160 5 ]
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_160_5_162_5_if_stmt:
+        symbol [ delta %tmp.35 160 8 13 ];
+        %tmp.35 = getv ? :delta;
+        %tmp.36 = null;
+        %tmp.37 = eq %tmp.35 %tmp.36;
+        bf %tmp.37 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_160_5_162_5_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_160_5_162_5_if_true:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_160_22_162_5_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 161 6 ]
+        %tmp.38 = 0;
+        symbol [ delta ? 161 6 11 ];
+        putv self :delta %tmp.38;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_160_22_162_5_stop:
+        goto @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_160_5_162_5_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_160_5_162_5_if_end:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 163 5 ]
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_163_5_165_5_if_stmt:
+        symbol [ running %tmp.40 163 8 15 ];
+        %tmp.40 = getv ? :running;
+        %tmp.41 = null;
+        %tmp.42 = eq %tmp.40 %tmp.41;
+        bf %tmp.42 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_163_5_165_5_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_163_5_165_5_if_true:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_163_24_165_5_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 164 6 ]
+        %tmp.43 = false;
+        symbol [ running ? 164 6 13 ];
+        putv self :running %tmp.43;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_163_24_165_5_stop:
+        goto @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_163_5_165_5_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_163_5_165_5_if_end:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 167 5 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_147_32_178_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_147_32_178_4_stop" ]
+        %test1.2 = local;
+        symbol [ test1 %test1.2 167 9 14 ];
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_167_17_167_75_begin:
+        symbol [ pausedTime %tmp.45 167 18 28 ];
+        %tmp.45 = getv ? :pausedTime;
+        %tmp.46 = 0;
+        %tmp.47 = ne %tmp.45 %tmp.46;
+        %tmp.48 = dup %tmp.47;
+        bf %tmp.48 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_167_38_167_75_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_167_38_167_75_true:
+        symbol [ pausedTime %tmp.50 167 40 50 ];
+        %tmp.50 = getv ? :pausedTime;
+        symbol [ startTime %tmp.52 167 53 62 ];
+        %tmp.52 = getv ? :startTime;
+        %tmp.53 = sub %tmp.50 %tmp.52;
+        symbol [ delta %tmp.55 167 65 70 ];
+        %tmp.55 = getv ? :delta;
+        %tmp.56 = sub %tmp.53 %tmp.55;
+        %tmp.57 = 0;
+        %tmp.58 = lt %tmp.56 %tmp.57;
+        %tmp.59 = and %tmp.47 %tmp.58;
+        push %tmp.59;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_167_38_167_75_end:
+        %tmp.60 = phi [%tmp.48 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_167_17_167_75_begin] [%tmp.59 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_167_38_167_75_true] [%tmp.60 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_167_38_167_75_end];
+        lputv %test1.2 %tmp.60;
+        symbol [ test1 %test1.2 167 9 14 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 168 5 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_147_32_178_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_147_32_178_4_stop" ]
+        %test2.3 = local;
+        symbol [ test2 %test2.3 168 9 14 ];
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_168_17_168_82_begin:
+        symbol [ pausedTime %tmp.62 168 18 28 ];
+        %tmp.62 = getv ? :pausedTime;
+        %tmp.63 = 0;
+        %tmp.64 = eq %tmp.62 %tmp.63;
+        %tmp.65 = dup %tmp.64;
+        bf %tmp.65 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_168_38_168_82_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_168_38_168_82_true:
+        symbol [ System %tmp.66 168 40 46 ];
+        %tmp.66 = getm $.Toybox.System;
+        symbol [ getTimer %tmp.67 168 47 55 ];
+        %tmp.67 = getv function %tmp.66 :getTimer;
+        %tmp.68 = invoke %tmp.66 %tmp.67();
+        symbol [ startTime %tmp.70 168 60 69 ];
+        %tmp.70 = getv ? :startTime;
+        %tmp.71 = sub %tmp.68 %tmp.70;
+        symbol [ delta %tmp.73 168 72 77 ];
+        %tmp.73 = getv ? :delta;
+        %tmp.74 = sub %tmp.71 %tmp.73;
+        %tmp.75 = 0;
+        %tmp.76 = lt %tmp.74 %tmp.75;
+        %tmp.77 = and %tmp.64 %tmp.76;
+        push %tmp.77;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_168_38_168_82_end:
+        %tmp.78 = phi [%tmp.65 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_168_17_168_82_begin] [%tmp.77 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_168_38_168_82_true] [%tmp.78 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_168_38_168_82_end];
+        lputv %test2.3 %tmp.78;
+        symbol [ test2 %test2.3 168 9 14 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 170 5 ]
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_5_177_5_if_stmt:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_8_170_17_begin:
+        %tmp.79 = lgetv %test1.2;
+        symbol [ test1 %tmp.79 170 8 13 ];
+        bt %tmp.79 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_5_177_5_if_true;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_17_170_17_false:
+        %tmp.80 = lgetv %test2.3;
+        symbol [ test2 %tmp.80 170 17 22 ];
+        push %tmp.80;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_17_170_17_end:
+        %tmp.81 = phi [%tmp.79 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_8_170_17_begin] [%tmp.80 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_17_170_17_false] [%tmp.81 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_17_170_17_end];
+        bf %tmp.81 @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_5_177_5_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_5_177_5_if_true:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_23_177_5_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 171 6 ]
+        symbol [ System %tmp.82 171 6 12 ];
+        %tmp.82 = getm $.Toybox.System;
+        symbol [ println %tmp.83 171 13 20 ];
+        %tmp.83 = getv function %tmp.82 :println;
+        %tmp.84 = "!!!!";
+        invoke %tmp.82 %tmp.83(%tmp.84);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 172 6 ]
+        %tmp.85 = 0;
+        symbol [ startTime ? 172 6 15 ];
+        putv self :startTime %tmp.85;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 173 6 ]
+        %tmp.86 = 0;
+        symbol [ pausedTime ? 173 6 16 ];
+        putv self :pausedTime %tmp.86;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 174 6 ]
+        %tmp.87 = 0;
+        symbol [ delta ? 174 6 11 ];
+        putv self :delta %tmp.87;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 175 6 ]
+        %tmp.88 = false;
+        symbol [ running ? 175 6 13 ];
+        putv self :running %tmp.88;
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 176 6 ]
+        %tmp.89 = self;
+        symbol [ saveMyProperties %tmp.90 176 6 22 ];
+        %tmp.90 = getv function %tmp.89 :saveMyProperties;
+        invoke %tmp.89 %tmp.90();
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_23_177_5_stop:
+        goto @C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_5_177_5_if_end;
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_170_5_177_5_if_end:
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_147_32_178_4_stop:
+    }
+    [ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 180; @symbol_functiondef = [saveMyProperties,180,13,29]; ]
+    function saveMyProperties() {
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_180_31_189_4_start:
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 181 5 ]
+        [ "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_180_31_189_4_start" "C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_180_31_189_4_stop" ]
+        %app.1 = local;
+        symbol [ app %app.1 181 9 12 ];
+        symbol [ Application %tmp.1 181 15 26 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.2 181 27 33 ];
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %app.1 %tmp.3;
+        symbol [ app %app.1 181 9 12 ];
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 183 5 ]
+        %tmp.4 = lgetv %app.1;
+        symbol [ app %tmp.4 183 5 8 ];
+        symbol [ setProperty %tmp.5 183 9 20 ];
+        %tmp.5 = getv function %tmp.4 :setProperty;
+        symbol [ STOPWATCH_IA_START %tmp.7 183 21 39 ];
+        %tmp.7 = getv ? :STOPWATCH_IA_START;
+        symbol [ startTime %tmp.9 183 41 50 ];
+        %tmp.9 = getv ? :startTime;
+        invoke %tmp.4 %tmp.5(%tmp.7, %tmp.9);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 184 5 ]
+        %tmp.10 = lgetv %app.1;
+        symbol [ app %tmp.10 184 5 8 ];
+        symbol [ setProperty %tmp.11 184 9 20 ];
+        %tmp.11 = getv function %tmp.10 :setProperty;
+        symbol [ STOPWATCH_IA_PAUSEDTIME %tmp.13 184 21 44 ];
+        %tmp.13 = getv ? :STOPWATCH_IA_PAUSEDTIME;
+        symbol [ pausedTime %tmp.15 184 46 56 ];
+        %tmp.15 = getv ? :pausedTime;
+        invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 185 5 ]
+        %tmp.16 = lgetv %app.1;
+        symbol [ app %tmp.16 185 5 8 ];
+        symbol [ setProperty %tmp.17 185 9 20 ];
+        %tmp.17 = getv function %tmp.16 :setProperty;
+        symbol [ STOPWATCH_IA_delta %tmp.19 185 21 39 ];
+        %tmp.19 = getv ? :STOPWATCH_IA_delta;
+        symbol [ delta %tmp.21 185 41 46 ];
+        %tmp.21 = getv ? :delta;
+        invoke %tmp.16 %tmp.17(%tmp.19, %tmp.21);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 186 5 ]
+        %tmp.22 = lgetv %app.1;
+        symbol [ app %tmp.22 186 5 8 ];
+        symbol [ setProperty %tmp.23 186 9 20 ];
+        %tmp.23 = getv function %tmp.22 :setProperty;
+        symbol [ STOPWATCH_IA_RUNNING %tmp.25 186 21 41 ];
+        %tmp.25 = getv ? :STOPWATCH_IA_RUNNING;
+        symbol [ running %tmp.27 186 43 50 ];
+        %tmp.27 = getv ? :running;
+        invoke %tmp.22 %tmp.23(%tmp.25, %tmp.27);
+[ "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc" 188 5 ]
+        %tmp.28 = lgetv %app.1;
+        symbol [ app %tmp.28 188 5 8 ];
+        symbol [ saveProperties %tmp.29 188 9 23 ];
+        %tmp.29 = getv function %tmp.28 :saveProperties;
+        invoke %tmp.28 %tmp.29();
+C_DEV_GarminDev_garmin_timerapp_ia_source_StopWatchWidgetView_mc_180_31_189_4_stop:
+    }
+}
+[ @file = "C:\DEV\GarminDev\garmin_timerapp_ia\source\StopWatchWidgetView.mc"; @line = 1; ]
+<init> {
+}

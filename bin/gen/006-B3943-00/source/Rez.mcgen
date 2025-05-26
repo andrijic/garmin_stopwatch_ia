@@ -1,0 +1,50 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var MaybeImage as ResourceId;
+        (:initialized) var YesImage as ResourceId;
+        (:initialized) var NoImage as ResourceId;
+        (:initialized) var id_monkey as ResourceId;
+        (:initialized) var LauncherIcon as ResourceId;
+    } // Drawables
+
+    module Layouts {
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_bitmap_id_monkey = new WatchUi.Bitmap({:identifier=>"id_monkey", :rezId=>$.Rez.Drawables.id_monkey, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>WatchUi.LAYOUT_VALIGN_CENTER});
+            rez_cmp_local_bitmap_id_monkey.setLocation(((416 - rez_cmp_local_bitmap_id_monkey.width) * 0.5), ((416 - rez_cmp_local_bitmap_id_monkey.height) * 0.5));
+
+            return [rez_cmp_local_bitmap_id_monkey] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Strings {
+        (:initialized) var MaybeMessage4 as ResourceId;
+        (:initialized) var MaybeMessage3 as ResourceId;
+        (:initialized) var MaybeMessage0 as ResourceId;
+        (:initialized) var MaybeMessage2 as ResourceId;
+        (:initialized) var AppName as ResourceId;
+        (:initialized) var MaybeMessage1 as ResourceId;
+        (:initialized) var YesMessage9 as ResourceId;
+        (:initialized) var NoMessage1 as ResourceId;
+        (:initialized) var YesMessage8 as ResourceId;
+        (:initialized) var NoMessage0 as ResourceId;
+        (:initialized) var NoMessage4 as ResourceId;
+        (:initialized) var NoMessage3 as ResourceId;
+        (:initialized) var NoMessage2 as ResourceId;
+        (:initialized) var YesMessage1 as ResourceId;
+        (:initialized) var YesMessage0 as ResourceId;
+        (:initialized) var YesMessage3 as ResourceId;
+        (:initialized) var YesMessage2 as ResourceId;
+        (:initialized) var YesMessage5 as ResourceId;
+        (:initialized) var PromptLine0 as ResourceId;
+        (:initialized) var YesMessage4 as ResourceId;
+        (:initialized) var PromptLine1 as ResourceId;
+        (:initialized) var YesMessage7 as ResourceId;
+        (:initialized) var YesMessage6 as ResourceId;
+    } // Strings
+} // Rez
